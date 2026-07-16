@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>关系宇宙 · Steam Game Galaxy</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <script src="https://d3js.org/d3.v7.min.js">
+    </script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/graph.css" />
+</head>
+<body>
+
+    <div id="space-bg"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <nav class="navbar">
+        <a href="index_galaxy.html" class="logo">
+            <span class="logo-icon">✦</span>
+            <span class="logo-text">Game Galaxy</span>
+            <span class="logo-sub">EXPLORER</span>
+        </a>
+        <div class="nav-right">
+            <span class="status-dot"></span>
+            <span id="statusText" style="font-size:12px;color:#4a6a7a;">加载中...</span>
+            <a href="index_galaxy.html" class="nav-link">银河</a>
+            <a href="profile.html" class="nav-link">档案</a>
+            <a href="graph.html" class="nav-link active">图谱</a>
+            <a href="recommend.html" class="nav-link">推荐</a>
+            <a href="dashboard.html" class="nav-link">驾驶舱</a>
+            <a href="compare.html" class="nav-link">对比</a>
+            <a href="evolution.html" class="nav-link">演变</a>
+        </div>
+    </nav>
+
+    <div class="main-layout">
+        <div class="graph-container" id="graphContainer">
+            <div id="graph-canvas"></div>
+            <div class="loading-overlay" id="loadingOverlay">
+                <div class="spinner"></div>
+                <div class="text">加载关系宇宙...</div>
+            </div>
+        </div>
+
+        <div class="info-panel" id="infoPanel">
+            <div class="info-empty" id="infoEmpty">
+                <div class="icon">🕸️</div>
+                <div>点击节点探索关系</div>
+                <div class="hint">悬停预览 · 点击查看详情</div>
+            </div>
+
+            <div class="info-card" id="infoCard">
+                <div class="node-name" id="nodeName">—</div>
+                <div class="node-type"><span class="badge" id="nodeTypeBadge">—</span></div>
+                <div class="node-stats" id="nodeStats"></div>
+                <div class="node-relations" id="nodeRelations"></div>
+                <div class="recommend-action">
+                    <button class="btn-recommend" id="graphRecommendBtn">🔬 查看相似推荐</button>
+                </div>
+                <div class="legend">
+                    <span class="leg-item"><span class="dot" style="background:#ff6b6b;"></span> 游戏</span>
+                    <span class="leg-item"><span class="dot" style="background:#6bcb6b;"></span> 类型</span>
+                    <span class="leg-item"><span class="dot" style="background:#ffd93d;"></span> 标签</span>
+                    <span class="leg-item"><span class="dot" style="background:#a66cff;"></span> 开发商</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/graph.js"></script>
+</body>
+</html>

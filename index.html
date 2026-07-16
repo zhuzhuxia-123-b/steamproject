@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steam Game Galaxy · 银河探索中心</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js">
+    </script>
+
+    <!-- 外部样式 -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- 深空背景 -->
+    <div id="space-bg"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- 主应用 -->
+    <div id="app">
+
+        <!-- 顶部导航 -->
+        <nav class="navbar">
+            <a href="index_galaxy.html" class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">Game Galaxy</span>
+                <span class="logo-sub">EXPLORER</span>
+            </a>
+
+            <div class="nav-center">
+                <input class="search-box" id="searchInput" type="text" placeholder="搜索游戏... 例如 Elden Ring" />
+                <button class="search-btn" id="searchBtn">🔍</button>
+            </div>
+
+            <div class="nav-right">
+                <span class="status-dot"></span>
+                <span id="statusText" style="font-size:12px;color:#4a6a7a;">加载中...</span>
+                <a href="index_galaxy.html" class="nav-link active">银河</a>
+                <a href="profile.html" class="nav-link">档案</a>
+                <a href="graph.html" class="nav-link">图谱</a>
+                <a href="recommend.html" class="nav-link">推荐</a>
+                <a href="dashboard.html" class="nav-link">驾驶舱</a>
+                <a href="compare.html" class="nav-link">对比</a>
+                <a href="evolution.html" class="nav-link">演变</a>
+            </div>
+        </nav>
+
+        <!-- 主体 -->
+        <div class="main-layout">
+
+            <!-- 左侧筛选栏 -->
+            <aside class="sidebar-left" id="sidebarLeft">
+                <div class="filter-group">
+                    <span class="filter-label">🎯 游戏类型</span>
+                    <div id="genreFilters"></div>
+                </div>
+
+                <div class="filter-group">
+                    <span class="filter-label">📅 年份范围</span>
+                    <input class="filter-slider" id="yearSlider" type="range" min="1997" max="2026" value="2026" />
+                    <div class="filter-range-labels">
+                        <span>1997</span>
+                        <span id="yearLabel">2026</span>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <span class="filter-label">💪 生命力指数</span>
+                    <input class="filter-slider" id="gviSlider" type="range" min="0" max="100" value="20" />
+                    <div class="filter-range-labels">
+                        <span>最低</span>
+                        <span id="gviLabel">≥ 20</span>
+                    </div>
+                </div>
+
+                <button class="filter-reset" id="resetFilters">🔄 重置所有筛选</button>
+                <div class="filter-stats">
+                    显示 <strong id="filterCount">0</strong> 款游戏
+                </div>
+            </aside>
+
+            <!-- 银河地图 -->
+            <div class="galaxy-container" id="galaxyContainer">
+                <div id="galaxy-chart"></div>
+
+                <!-- 加载遮罩 -->
+                <div class="loading-overlay" id="loadingOverlay">
+                    <div class="spinner"></div>
+                    <div class="text">加载银河数据...</div>
+                </div>
+            </div>
+
+            <!-- 右侧详情卡片 -->
+            <aside class="sidebar-right" id="sidebarRight">
+                <div class="detail-empty" id="detailEmpty">
+                    <div class="icon">🌌</div>
+                    <div>点击星球探索游戏</div>
+                    <div class="hint">悬停预览 · 点击查看详情</div>
+                </div>
+
+                <div class="detail-card" id="detailCard">
+                    <div class="game-name" id="detailName">—</div>
+                    <div class="game-meta">
+                        <span id="detailDeveloper">—</span>
+                        <span id="detailYear">—</span>
+                        <span id="detailGenres">—</span>
+                    </div>
+
+                    <div class="detail-gvi">
+                        <span class="gvi-value" id="detailGvi">—</span>
+                        <span class="gvi-label">生命力指数</span>
+                        <div class="gvi-bar"><div class="fill" id="detailGviBar" style="width:0%"></div></div>
+                    </div>
+
+                    <div class="detail-tags" id="detailTags"></div>
+
+                    <div class="detail-radar" id="detailRadar"></div>
+
+                    <div class="detail-similar">
+                        <div class="sim-title">🔗 相似游戏</div>
+                        <div class="sim-list" id="detailSimilar"></div>
+                    </div>
+
+                    <div class="detail-actions">
+                        <button class="btn-primary" id="detailViewBtn">📄 查看完整档案</button>
+                        <button class="btn-secondary" id="detailLocateBtn">📍 定位</button>
+                        <button class="btn-recommend" id="detailRecommendBtn">🔬 相似推荐</button>
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+
+    <!-- 外部 JavaScript -->
+    <script src="js/app.js"></script>
+</body>
+</html>

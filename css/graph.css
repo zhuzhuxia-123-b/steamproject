@@ -1,0 +1,279 @@
+/* ============================
+   Graph 页面专用样式
+   ============================ */
+
+.main-layout {
+    display: flex;
+    height: calc(100vh - 70px);
+    position: relative;
+    z-index: 1;
+}
+
+/* ---- 图谱容器 ---- */
+.graph-container {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+}
+#graph-canvas {
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+}
+#graph-canvas:active {
+    cursor: grabbing;
+}
+
+/* ---- 右侧信息面板 ---- */
+.info-panel {
+    width: 340px;
+    min-width: 340px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.02);
+    border-left: 1px solid rgba(255, 255, 255, 0.04);
+    overflow-y: auto;
+    flex-shrink: 0;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+}
+.info-panel::-webkit-scrollbar {
+    width: 2px;
+}
+
+.info-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #3a5a6a;
+    font-size: 14px;
+    text-align: center;
+}
+.info-empty .icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+    opacity: 0.3;
+}
+.info-empty .hint {
+    font-size: 12px;
+    color: #2a4a5a;
+    margin-top: 4px;
+}
+
+.info-card {
+    display: none;
+    animation: slideIn 0.4s ease;
+}
+.info-card.active {
+    display: block;
+}
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.info-card .node-name {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 2px;
+}
+.info-card .node-type {
+    font-size: 12px;
+    color: #5a7a8a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+.info-card .node-type .badge {
+    display: inline-block;
+    padding: 2px 12px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+    background: rgba(102, 192, 244, 0.1);
+    border: 1px solid rgba(102, 192, 244, 0.15);
+    color: #8ab8d8;
+}
+
+.info-card .node-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin: 12px 0 14px;
+}
+.info-card .node-stats .stat-item {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    padding: 8px 12px;
+    text-align: center;
+}
+.info-card .node-stats .stat-item .num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffd93d;
+}
+.info-card .node-stats .stat-item .label {
+    font-size: 10px;
+    color: #4a6a7a;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.info-card .node-relations {
+    margin-top: 8px;
+    flex: 1;
+    overflow-y: auto;
+}
+.info-card .node-relations .rel-title {
+    font-size: 12px;
+    font-weight: 500;
+    color: #5a7a8a;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.info-card .node-relations .rel-group {
+    margin-bottom: 10px;
+}
+.info-card .node-relations .rel-group .group-label {
+    font-size: 10px;
+    color: #4a6a7a;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 4px;
+}
+.info-card .node-relations .rel-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.info-card .node-relations .rel-item {
+    padding: 4px 14px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    font-size: 12px;
+    color: #8a9aaa;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.info-card .node-relations .rel-item:hover {
+    background: rgba(102, 192, 244, 0.1);
+    color: #c0d0e0;
+    border-color: rgba(102, 192, 244, 0.2);
+}
+
+/* ---- 推荐按钮 ---- */
+.info-card .recommend-action {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+.info-card .recommend-action .btn-recommend {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(135deg, #ffd93d, #f59e0b);
+    color: #070b15;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s;
+}
+.info-card .recommend-action .btn-recommend:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(255, 215, 0, 0.3);
+}
+
+.info-card .legend {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    flex-shrink: 0;
+}
+.info-card .legend .leg-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: #5a7a8a;
+}
+.info-card .legend .leg-item .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* ---- 加载状态 ---- */
+.loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(7, 11, 21, 0.6);
+    z-index: 20;
+    backdrop-filter: blur(4px);
+    transition: opacity 0.6s ease;
+}
+.loading-overlay.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+.loading-overlay .spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(102, 192, 244, 0.1);
+    border-top-color: #66c0f4;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.loading-overlay .text {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #4a7a8a;
+    letter-spacing: 2px;
+}
+
+/* ---- 响应式 ---- */
+@media (max-width: 768px) {
+    .info-panel {
+        width: 100%;
+        min-width: unset;
+        height: 40vh;
+        border-left: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.04);
+    }
+    .main-layout {
+        flex-direction: column;
+    }
+    .graph-container {
+        height: 60vh;
+    }
+}

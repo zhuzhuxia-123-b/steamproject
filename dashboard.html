@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Galaxy Observatory</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js">
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+
+</head>
+<body class="dashboard-page"></body>
+<body>
+
+    <div id="space-bg"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- ======================
+    导航
+    ====================== -->
+
+    <nav class="navbar">
+        <a href="index_galaxy.html" class="logo">
+            <span class="logo-icon">✦</span>
+            <span class="logo-text">Game Galaxy</span>
+            <span class="logo-sub">EXPLORER</span>
+        </a>
+
+        <div class="nav-right">
+            <span class="status-dot"></span>
+            <span id="statusText">Observatory Loading...</span>
+
+            <a href="index_galaxy.html" class="nav-link">银河</a>
+            <a href="profile.html" class="nav-link">档案</a>
+            <a href="graph.html" class="nav-link">图谱</a>
+            <a href="recommend.html" class="nav-link">推荐</a>
+            <a href="dashboard.html" class="nav-link active">驾驶舱</a>
+            <a href="compare.html" class="nav-link">对比</a>
+            <a href="evolution.html" class="nav-link">演变</a>
+        </div>
+    </nav>
+
+    <div class="main-content">
+
+        <!-- 面包屑 -->
+
+        <div class="breadcrumb">
+            <a href="index_galaxy.html">✦ 银河</a>
+            <span class="sep">›</span>
+            <span>Galaxy Observatory</span>
+        </div>
+
+        <!-- ======================
+        标题
+        ====================== -->
+
+        <section class="dashboard-header">
+            <h1>🌌 GALAXY OBSERVATORY</h1>
+            <p>Steam 游戏宇宙实时观测中心</p>
+            <div class="subtitle">Observe · Analyze · Discover</div>
+        </section>
+
+        <!-- ======================
+        核心指标
+        ====================== -->
+
+        <section class="overview-grid">
+
+            <div class="metric-card">
+                <div class="metric-icon">🌍</div>
+                <div class="metric-title">游戏星球</div>
+                <div class="metric-value" id="totalGames">-</div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-icon">🪐</div>
+                <div class="metric-title">已探索星球</div>
+                <div class="metric-value" id="analyzedGames">-</div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-icon">🔥</div>
+                <div class="metric-title">平均生命力</div>
+                <div class="metric-value" id="avgVitality">-</div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-icon">⏳</div>
+                <div class="metric-title">黄金时代</div>
+                <div class="metric-value" id="activeYear">-</div>
+            </div>
+
+        </section>
+
+        <!-- ======================
+        健康指数
+        ====================== -->
+
+        <section class="dashboard-card health-section">
+
+            <div class="card-title">
+                <span class="icon">❤️</span> Galaxy Health Index
+            </div>
+
+            <div class="health-layout">
+                <div id="healthGauge"></div>
+
+                <div class="health-info">
+                    <div class="health-item">
+                        <span>质量指数</span>
+                        <strong id="qualityScore">-</strong>
+                    </div>
+                    <div class="health-item">
+                        <span>生命指数</span>
+                        <strong id="vitalityScore">-</strong>
+                    </div>
+                    <div class="health-item">
+                        <span>生态多样性</span>
+                        <strong id="diversityScore">-</strong>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ======================
+        类型文明
+        ====================== -->
+
+        <section class="dashboard-card">
+            <div class="card-title">
+                <span class="icon">🌎</span> Genre Civilization
+            </div>
+            <div id="genreSunburst"></div>
+        </section>
+
+        <!-- ======================
+        开发商文明
+        ====================== -->
+
+        <section class="dashboard-card">
+            <div class="card-title">
+                <span class="icon">🏛</span> Developer Empire
+            </div>
+            <div id="developerChart"></div>
+        </section>
+
+        <!-- ======================
+        标签星云
+        ====================== -->
+
+        <section class="dashboard-card">
+            <div class="card-title">
+                <span class="icon">✨</span> Tag Nebula
+            </div>
+            <div id="tagNebula"></div>
+        </section>
+
+        <footer class="footer">Steam Game Galaxy · Observatory</footer>
+
+    </div>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>

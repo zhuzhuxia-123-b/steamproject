@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>游戏数字档案 · Steam Game Galaxy</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js">
+    </script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+</head>
+<body>
+
+    <div id="space-bg"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <nav class="navbar">
+        <a href="index_galaxy.html" class="logo">
+            <span class="logo-icon">✦</span>
+            <span class="logo-text">Game Galaxy</span>
+            <span class="logo-sub">EXPLORER</span>
+        </a>
+        <div class="nav-right">
+            <span class="status-dot"></span>
+            <span id="statusText" style="font-size:12px;color:#4a6a7a;">加载中...</span>
+            <a href="index_galaxy.html" class="nav-link">银河</a>
+            <a href="profile.html" class="nav-link active">档案</a>
+            <a href="graph.html" class="nav-link">图谱</a>
+            <a href="recommend.html" class="nav-link">推荐</a>
+            <a href="dashboard.html" class="nav-link">驾驶舱</a>
+            <a href="compare.html" class="nav-link">对比</a>
+            <a href="evolution.html" class="nav-link">演变</a>
+        </div>
+    </nav>
+
+    <div class="main-content" id="app">
+        <div class="breadcrumb">
+            <a href="index_galaxy.html">✦ 银河</a>
+            <span class="sep">›</span>
+            <span id="breadcrumbGame">游戏档案</span>
+        </div>
+
+        <div id="loadingState" class="loading-overlay">
+            <div class="spinner"></div>
+            <div>加载游戏档案...</div>
+        </div>
+
+        <div id="contentWrapper" style="display:none;">
+            <div class="game-header">
+                <div class="game-cover" id="gameCover">🎮</div>
+                <div class="game-info">
+                    <div class="name" id="gameName">—</div>
+                    <div class="sub">
+                        <span id="gameDeveloper">—</span>
+                        <span id="gameYear">—</span>
+                        <span id="gameGenres">—</span>
+                    </div>
+                    <div class="gvi-section">
+                        <span class="gvi-value" id="gameGvi">—</span>
+                        <span class="gvi-label">生命力指数</span>
+                        <div class="gvi-bar"><div class="fill" id="gameGviBar"></div></div>
+                    </div>
+                    <div class="tags" id="gameTags"></div>
+                </div>
+                <div class="header-actions">
+                    <button class="back-btn" onclick="goBack()">← 返回银河</button>
+                    <button class="back-btn btn-recommend-header" id="recommendBtnHeader">🔬 相似推荐</button>
+                </div>
+            </div>
+
+            <div class="profile-grid">
+                <div class="profile-card">
+                    <div class="card-title"><span class="icon">🎯</span> 六维游戏画像</div>
+                    <div class="chart-container" id="radarChart"></div>
+                </div>
+                <div class="profile-card">
+                    <div class="card-title"><span class="icon">💪</span> 生命力拆解</div>
+                    <div class="vitality-breakdown" id="vitalityBreakdown"></div>
+                </div>
+                <div class="profile-card">
+                    <div class="card-title"><span class="icon">🧬</span> 游戏 DNA</div>
+                    <div class="dna-cloud" id="dnaCloud"></div>
+                </div>
+                <div class="profile-card">
+                    <div class="card-title"><span class="icon">🔗</span> 相似游戏</div>
+                    <div class="sim-grid" id="similarGames"></div>
+                </div>
+                <div class="profile-card recommend-entry-card">
+                    <div class="entry-text">
+                        <div class="card-title"><span class="icon">🧪</span> 智能推荐实验室</div>
+                        <div class="desc">基于六维画像 + 标签语义，发现更多相似游戏</div>
+                    </div>
+                    <button class="entry-btn" id="recommendBtnEntry">🚀 查看相似推荐</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">Steam Game Galaxy · 游戏数字档案 · 数据来源 Kaggle Steam Dataset</div>
+    </div>
+
+    <script src="js/profile.js"></script>
+</body>
+</html>

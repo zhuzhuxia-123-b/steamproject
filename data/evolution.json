@@ -1,0 +1,3224 @@
+{
+  "description": "Steam Game Evolution Timeline",
+  "total_years": 29,
+  "years": [
+    {
+      "year": 1997,
+      "game_count": 2,
+      "avg_score": 0.898,
+      "avg_vitality": 40.4,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 2
+        },
+        {
+          "name": "Indie",
+          "value": 2
+        },
+        {
+          "name": "Racing",
+          "value": 1
+        }
+      ],
+      "tags": [
+        "Action",
+        "1990's",
+        "Horror",
+        "Villain Protagonist",
+        "Psychological Horror",
+        "Top-Down Shooter",
+        "Shooter",
+        "Twin Stick Shooter",
+        "Isometric",
+        "Difficult",
+        "Dark Humor",
+        "Top-Down",
+        "Dark Comedy",
+        "Surreal",
+        "Psychological"
+      ],
+      "developers": [
+        {
+          "name": "Running With Scissors",
+          "value": 1
+        },
+        {
+          "name": "Stainless Games Ltd",
+          "value": 1
+        }
+      ],
+      "top_games": [
+        {
+          "name": "POSTAL",
+          "score": 0.9091981132,
+          "genres": "Action,Indie"
+        },
+        {
+          "name": "Carmageddon Max Pack",
+          "score": 0.8866525424,
+          "genres": "Action,Indie,Racing"
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "game_count": 1,
+      "avg_score": 0.965,
+      "avg_vitality": 60.0,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 1
+        }
+      ],
+      "tags": [
+        "FPS",
+        "Classic",
+        "1990's",
+        "Singleplayer",
+        "Sci-fi",
+        "Multiplayer",
+        "Shooter",
+        "Action",
+        "First-Person",
+        "Aliens",
+        "Story Rich",
+        "Silent Protagonist",
+        "Atmospheric",
+        "Gore",
+        "Retro"
+      ],
+      "developers": [
+        {
+          "name": "Valve",
+          "value": 1
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Half-Life",
+          "score": 0.9653492734,
+          "genres": "Action"
+        }
+      ]
+    },
+    {
+      "year": 1999,
+      "game_count": 2,
+      "avg_score": 0.911,
+      "avg_vitality": 48.55,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 2
+        }
+      ],
+      "tags": [
+        "Action",
+        "FPS",
+        "Classic",
+        "Shooter",
+        "First-Person",
+        "1990's",
+        "Co-op",
+        "Retro",
+        "Multiplayer",
+        "Hero Shooter",
+        "Team-Based",
+        "Class-Based",
+        "Old School",
+        "Competitive",
+        "Fast-Paced"
+      ],
+      "developers": [
+        {
+          "name": "Valve",
+          "value": 1
+        },
+        {
+          "name": "Gearbox Software",
+          "value": 1
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Half-Life: Opposing Force",
+          "score": 0.9530944371000001,
+          "genres": "Action"
+        },
+        {
+          "name": "Team Fortress Classic",
+          "score": 0.8698935805,
+          "genres": "Action"
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "game_count": 2,
+      "avg_score": 0.901,
+      "avg_vitality": 43.5,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 2
+        }
+      ],
+      "tags": [
+        "Action",
+        "FPS",
+        "Multiplayer",
+        "Classic",
+        "First-Person",
+        "Shooter",
+        "Old School",
+        "Competitive",
+        "Sci-fi",
+        "Space",
+        "Cyberpunk",
+        "Psychological Horror",
+        "3D",
+        "Retro",
+        "Memes"
+      ],
+      "developers": [
+        {
+          "name": "Valve",
+          "value": 2
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Counter-Strike",
+          "score": 0.9743132757,
+          "genres": "Action"
+        },
+        {
+          "name": "Ricochet",
+          "score": 0.8275004147,
+          "genres": "Action"
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "game_count": 4,
+      "avg_score": 0.899,
+      "avg_vitality": 43.55,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 3
+        },
+        {
+          "name": "RPG",
+          "value": 2
+        },
+        {
+          "name": "Strategy",
+          "value": 1
+        },
+        {
+          "name": "Indie",
+          "value": 1
+        }
+      ],
+      "tags": [
+        "Classic",
+        "Singleplayer",
+        "Action",
+        "Retro",
+        "Story Rich",
+        "FPS",
+        "Shooter",
+        "First-Person",
+        "Old School",
+        "Sci-fi",
+        "1990's",
+        "Difficult",
+        "Adventure",
+        "Atmospheric",
+        "Great Soundtrack"
+      ],
+      "developers": [
+        {
+          "name": "Valve",
+          "value": 1
+        },
+        {
+          "name": "Gearbox Software",
+          "value": 1
+        },
+        {
+          "name": "Spiderweb Software",
+          "value": 1
+        },
+        {
+          "name": "Piranha Bytes",
+          "value": 1
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Half-Life: Blue Shift",
+          "score": 0.9249268422,
+          "genres": "Action"
+        },
+        {
+          "name": "Geneforge 1",
+          "score": 0.9228791774,
+          "genres": "Strategy,RPG,Indie"
+        },
+        {
+          "name": "Gothic 1",
+          "score": 0.9222089138,
+          "genres": "Action,RPG"
+        },
+        {
+          "name": "Deathmatch Classic",
+          "score": 0.8274336283,
+          "genres": "Action"
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "game_count": 1,
+      "avg_score": 0.875,
+      "avg_vitality": 46.9,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 1
+        },
+        {
+          "name": "Adventure",
+          "value": 1
+        }
+      ],
+      "tags": [
+        "Action",
+        "Story Rich",
+        "Crime",
+        "Open World",
+        "Classic",
+        "Atmospheric",
+        "Singleplayer",
+        "Great Soundtrack",
+        "Third Person",
+        "Violent",
+        "Adventure",
+        "Third-Person Shooter",
+        "Shooter",
+        "Difficult",
+        "Cult Classic"
+      ],
+      "developers": [
+        {
+          "name": "Illusion Softworks",
+          "value": 1
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Mafia",
+          "score": 0.8746886879,
+          "genres": "Action,Adventure"
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "game_count": 3,
+      "avg_score": 0.816,
+      "avg_vitality": 36.13,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 2
+        },
+        {
+          "name": "Indie",
+          "value": 2
+        },
+        {
+          "name": "Casual",
+          "value": 1
+        },
+        {
+          "name": "Strategy",
+          "value": 1
+        },
+        {
+          "name": "RPG",
+          "value": 1
+        }
+      ],
+      "tags": [
+        "Shooter",
+        "Action",
+        "Singleplayer",
+        "Strategy",
+        "Indie",
+        "FPS",
+        "World War II",
+        "Multiplayer",
+        "War",
+        "Team-Based",
+        "Classic",
+        "First-Person",
+        "Class-Based",
+        "Military",
+        "Historical"
+      ],
+      "developers": [
+        {
+          "name": "Valve",
+          "value": 1
+        },
+        {
+          "name": "ToonTRAXX Studios",
+          "value": 1
+        },
+        {
+          "name": "Spiderweb Software",
+          "value": 1
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Day of Defeat",
+          "score": 0.9029987329,
+          "genres": "Action"
+        },
+        {
+          "name": "Geneforge 2",
+          "score": 0.8674698795,
+          "genres": "Strategy,RPG,Indie"
+        },
+        {
+          "name": "Chicken Shoot Gold",
+          "score": 0.6773847803,
+          "genres": "Action,Casual,Indie"
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "game_count": 5,
+      "avg_score": 0.89,
+      "avg_vitality": 56.84,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 5
+        }
+      ],
+      "tags": [
+        "Action",
+        "FPS",
+        "Multiplayer",
+        "Shooter",
+        "First-Person",
+        "Atmospheric",
+        "Singleplayer",
+        "Moddable",
+        "Adventure",
+        "Sci-fi",
+        "Competitive",
+        "Great Soundtrack",
+        "Classic",
+        "Physics",
+        "Old School"
+      ],
+      "developers": [
+        {
+          "name": "Valve",
+          "value": 5
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Half-Life 2",
+          "score": 0.9759514388,
+          "genres": "Action"
+        },
+        {
+          "name": "Counter-Strike: Source",
+          "score": 0.9626361566,
+          "genres": "Action"
+        },
+        {
+          "name": "Counter-Strike: Condition Zero",
+          "score": 0.9138521782000001,
+          "genres": "Action"
+        },
+        {
+          "name": "Half-Life 2: Deathmatch",
+          "score": 0.9066237672,
+          "genres": "Action"
+        },
+        {
+          "name": "Half-Life: Source",
+          "score": 0.6892943887,
+          "genres": "Action"
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "game_count": 5,
+      "avg_score": 0.874,
+      "avg_vitality": 43.38,
+      "genres": [
+        {
+          "name": "RPG",
+          "value": 4
+        },
+        {
+          "name": "Action",
+          "value": 2
+        },
+        {
+          "name": "Strategy",
+          "value": 1
+        },
+        {
+          "name": "Indie",
+          "value": 1
+        }
+      ],
+      "tags": [
+        "Action",
+        "Singleplayer",
+        "Classic",
+        "Adventure",
+        "RPG",
+        "Atmospheric",
+        "Story Rich",
+        "Multiplayer",
+        "Great Soundtrack",
+        "Fantasy",
+        "Action RPG",
+        "Isometric",
+        "Open World",
+        "Pirates",
+        "Strategy"
+      ],
+      "developers": [
+        {
+          "name": "Valve",
+          "value": 1
+        },
+        {
+          "name": "Gas Powered Games",
+          "value": 1
+        },
+        {
+          "name": "Piranha Bytes",
+          "value": 1
+        },
+        {
+          "name": "Firaxis Games",
+          "value": 1
+        },
+        {
+          "name": "Spiderweb Software",
+          "value": 1
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Sid Meier's Pirates!",
+          "score": 0.9456127629000001,
+          "genres": "RPG"
+        },
+        {
+          "name": "Gothic II: Gold Edition",
+          "score": 0.9362909466,
+          "genres": "Action,RPG"
+        },
+        {
+          "name": "Half-Life 2: Lost Coast",
+          "score": 0.8924526923,
+          "genres": "Action"
+        },
+        {
+          "name": "Geneforge 3",
+          "score": 0.8363636364,
+          "genres": "Strategy,RPG,Indie"
+        },
+        {
+          "name": "Dungeon Siege II",
+          "score": 0.7592385218000001,
+          "genres": "RPG"
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "game_count": 52,
+      "avg_score": 0.856,
+      "avg_vitality": 39.48,
+      "genres": [
+        {
+          "name": "Strategy",
+          "value": 21
+        },
+        {
+          "name": "Action",
+          "value": 17
+        },
+        {
+          "name": "Casual",
+          "value": 14
+        },
+        {
+          "name": "Indie",
+          "value": 7
+        },
+        {
+          "name": "RPG",
+          "value": 4
+        },
+        {
+          "name": "Racing",
+          "value": 1
+        },
+        {
+          "name": "Simulation",
+          "value": 1
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Action",
+        "Strategy",
+        "Classic",
+        "Multiplayer",
+        "Simulation",
+        "Casual",
+        "Great Soundtrack",
+        "Shooter",
+        "Military",
+        "War",
+        "First-Person",
+        "Atmospheric",
+        "Puzzle",
+        "Sci-fi"
+      ],
+      "developers": [
+        {
+          "name": "PopCap Games, Inc.",
+          "value": 12
+        },
+        {
+          "name": "Sonalysts",
+          "value": 3
+        },
+        {
+          "name": "Outerlight Ltd.",
+          "value": 2
+        },
+        {
+          "name": "Firaxis Games",
+          "value": 2
+        },
+        {
+          "name": "Egosoft",
+          "value": 2
+        },
+        {
+          "name": "Introversion Software",
+          "value": 2
+        },
+        {
+          "name": "Valve",
+          "value": 2
+        },
+        {
+          "name": "Terminal Reality",
+          "value": 2
+        },
+        {
+          "name": "Strategy First",
+          "value": 2
+        },
+        {
+          "name": "Malfador Machinations",
+          "value": 2
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Feeding Frenzy 2 Deluxe",
+          "score": 0.9723991507,
+          "genres": "Casual"
+        },
+        {
+          "name": "Pizza Frenzy Deluxe",
+          "score": 0.9680365297,
+          "genres": "Casual"
+        },
+        {
+          "name": "Garry's Mod",
+          "score": 0.9679557268000001,
+          "genres": "Casual,Indie,Simulation"
+        },
+        {
+          "name": "Insaniquarium Deluxe",
+          "score": 0.9675894666,
+          "genres": "Casual"
+        },
+        {
+          "name": "FlatOut 2",
+          "score": 0.9604522802000001,
+          "genres": "Racing"
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "game_count": 74,
+      "avg_score": 0.827,
+      "avg_vitality": 41.28,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 45
+        },
+        {
+          "name": "Strategy",
+          "value": 21
+        },
+        {
+          "name": "Adventure",
+          "value": 9
+        },
+        {
+          "name": "RPG",
+          "value": 8
+        },
+        {
+          "name": "Casual",
+          "value": 6
+        },
+        {
+          "name": "Indie",
+          "value": 4
+        },
+        {
+          "name": "Free To Play",
+          "value": 2
+        },
+        {
+          "name": "Racing",
+          "value": 2
+        },
+        {
+          "name": "Simulation",
+          "value": 2
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Action",
+        "Classic",
+        "Multiplayer",
+        "Shooter",
+        "Atmospheric",
+        "Strategy",
+        "Adventure",
+        "Great Soundtrack",
+        "First-Person",
+        "Sci-fi",
+        "FPS",
+        "Story Rich",
+        "Tactical",
+        "RTS"
+      ],
+      "developers": [
+        {
+          "name": "Relic Entertainment",
+          "value": 5
+        },
+        {
+          "name": "Pyro Studios",
+          "value": 4
+        },
+        {
+          "name": "Ion Storm",
+          "value": 3
+        },
+        {
+          "name": "Crystal Dynamics",
+          "value": 3
+        },
+        {
+          "name": "id Software",
+          "value": 3
+        },
+        {
+          "name": "Valve",
+          "value": 2
+        },
+        {
+          "name": "Firaxis Games",
+          "value": 2
+        },
+        {
+          "name": "PopTop",
+          "value": 2
+        },
+        {
+          "name": "id Software,Nightdive Studios,MachineGames",
+          "value": 2
+        },
+        {
+          "name": "PopCap Games, Inc.",
+          "value": 2
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Peggle Deluxe",
+          "score": 0.9744341611,
+          "genres": "Casual"
+        },
+        {
+          "name": "Half-Life 2: Episode Two",
+          "score": 0.9706339899,
+          "genres": "Action"
+        },
+        {
+          "name": "Quake",
+          "score": 0.9670161794000001,
+          "genres": "Action"
+        },
+        {
+          "name": "DOOM + DOOM II",
+          "score": 0.9647788673000001,
+          "genres": "Action"
+        },
+        {
+          "name": "Warhammer® 40,000: Dawn of War® - Dark Crusade",
+          "score": 0.9644647432000001,
+          "genres": "Strategy"
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "game_count": 103,
+      "avg_score": 0.811,
+      "avg_vitality": 39.16,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 50
+        },
+        {
+          "name": "Strategy",
+          "value": 23
+        },
+        {
+          "name": "Adventure",
+          "value": 21
+        },
+        {
+          "name": "Casual",
+          "value": 17
+        },
+        {
+          "name": "Indie",
+          "value": 15
+        },
+        {
+          "name": "RPG",
+          "value": 13
+        },
+        {
+          "name": "Simulation",
+          "value": 10
+        },
+        {
+          "name": "Racing",
+          "value": 6
+        },
+        {
+          "name": "Free To Play",
+          "value": 2
+        },
+        {
+          "name": "Sports",
+          "value": 1
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Action",
+        "Adventure",
+        "Multiplayer",
+        "Strategy",
+        "Atmospheric",
+        "Classic",
+        "Shooter",
+        "First-Person",
+        "Open World",
+        "Story Rich",
+        "Puzzle",
+        "Simulation",
+        "Great Soundtrack",
+        "Co-op"
+      ],
+      "developers": [
+        {
+          "name": "Ubisoft Montreal",
+          "value": 6
+        },
+        {
+          "name": "MicroProse Software, Inc",
+          "value": 4
+        },
+        {
+          "name": "Fakt Software",
+          "value": 3
+        },
+        {
+          "name": "Red Storm Entertainment",
+          "value": 3
+        },
+        {
+          "name": "Ubisoft",
+          "value": 3
+        },
+        {
+          "name": "Nival",
+          "value": 3
+        },
+        {
+          "name": "Gearbox Software",
+          "value": 3
+        },
+        {
+          "name": "MumboJumbo",
+          "value": 3
+        },
+        {
+          "name": "Hothead Games",
+          "value": 2
+        },
+        {
+          "name": "Frogwares",
+          "value": 2
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Peggle™ Nights",
+          "score": 0.9659259259,
+          "genres": "Casual"
+        },
+        {
+          "name": "Left 4 Dead",
+          "score": 0.9632765167,
+          "genres": "Action"
+        },
+        {
+          "name": "Defense Grid: The Awakening",
+          "score": 0.9616955085000001,
+          "genres": "Indie,Strategy"
+        },
+        {
+          "name": "AudioSurf",
+          "score": 0.9570294681,
+          "genres": "Indie"
+        },
+        {
+          "name": "Warhammer® 40,000: Dawn of War® - Soulstorm",
+          "score": 0.9518510107,
+          "genres": "Strategy"
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "game_count": 186,
+      "avg_score": 0.798,
+      "avg_vitality": 38.66,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 85
+        },
+        {
+          "name": "Strategy",
+          "value": 52
+        },
+        {
+          "name": "Adventure",
+          "value": 45
+        },
+        {
+          "name": "Indie",
+          "value": 40
+        },
+        {
+          "name": "RPG",
+          "value": 34
+        },
+        {
+          "name": "Simulation",
+          "value": 20
+        },
+        {
+          "name": "Casual",
+          "value": 20
+        },
+        {
+          "name": "Sports",
+          "value": 3
+        },
+        {
+          "name": "Free To Play",
+          "value": 3
+        },
+        {
+          "name": "Unknown",
+          "value": 3
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Action",
+        "Adventure",
+        "Multiplayer",
+        "Classic",
+        "Great Soundtrack",
+        "Atmospheric",
+        "Strategy",
+        "Shooter",
+        "Sci-fi",
+        "Story Rich",
+        "Puzzle",
+        "Third Person",
+        "RPG",
+        "First-Person"
+      ],
+      "developers": [
+        {
+          "name": "LucasArts",
+          "value": 10
+        },
+        {
+          "name": "NovaLogic",
+          "value": 7
+        },
+        {
+          "name": "Sigma Team Inc.",
+          "value": 5
+        },
+        {
+          "name": "Capcom",
+          "value": 4
+        },
+        {
+          "name": "EA Los Angeles",
+          "value": 4
+        },
+        {
+          "name": "Frogwares",
+          "value": 4
+        },
+        {
+          "name": "Volition",
+          "value": 3
+        },
+        {
+          "name": "Bethesda Game Studios",
+          "value": 3
+        },
+        {
+          "name": "Paradox Development Studio",
+          "value": 3
+        },
+        {
+          "name": "Rebellion",
+          "value": 3
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Plants vs. Zombies GOTY Edition",
+          "score": 0.9760444807,
+          "genres": "Strategy"
+        },
+        {
+          "name": "Left 4 Dead 2",
+          "score": 0.9753491759,
+          "genres": "Action"
+        },
+        {
+          "name": "LEGO® Star Wars™ - The Complete Saga",
+          "score": 0.9668740541,
+          "genres": "Adventure"
+        },
+        {
+          "name": "STAR WARS™ Jedi Knight - Jedi Academy™",
+          "score": 0.9604400573,
+          "genres": "Action"
+        },
+        {
+          "name": "Trine Enchanted Edition",
+          "score": 0.9576436857,
+          "genres": "Action,Adventure,Indie"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "game_count": 158,
+      "avg_score": 0.773,
+      "avg_vitality": 37.87,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 67
+        },
+        {
+          "name": "Strategy",
+          "value": 52
+        },
+        {
+          "name": "Indie",
+          "value": 48
+        },
+        {
+          "name": "Adventure",
+          "value": 33
+        },
+        {
+          "name": "RPG",
+          "value": 27
+        },
+        {
+          "name": "Casual",
+          "value": 27
+        },
+        {
+          "name": "Simulation",
+          "value": 19
+        },
+        {
+          "name": "Racing",
+          "value": 5
+        },
+        {
+          "name": "Free To Play",
+          "value": 4
+        },
+        {
+          "name": "Sports",
+          "value": 3
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Action",
+        "Multiplayer",
+        "Strategy",
+        "Adventure",
+        "Indie",
+        "Sci-fi",
+        "Atmospheric",
+        "Puzzle",
+        "RPG",
+        "Shooter",
+        "Casual",
+        "Great Soundtrack",
+        "Simulation",
+        "Co-op"
+      ],
+      "developers": [
+        {
+          "name": "Team17 Digital Ltd",
+          "value": 3
+        },
+        {
+          "name": "Paradox Development Studio",
+          "value": 3
+        },
+        {
+          "name": "Ubisoft Montreal",
+          "value": 3
+        },
+        {
+          "name": "Triumph Studios",
+          "value": 3
+        },
+        {
+          "name": "Oddworld Inhabitants",
+          "value": 2
+        },
+        {
+          "name": "GSC Game World",
+          "value": 2
+        },
+        {
+          "name": "Massive Development",
+          "value": 2
+        },
+        {
+          "name": "Valve",
+          "value": 2
+        },
+        {
+          "name": "Two Tribes",
+          "value": 2
+        },
+        {
+          "name": "Egosoft",
+          "value": 2
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Mount & Blade: Warband",
+          "score": 0.9773205293,
+          "genres": "Action,RPG"
+        },
+        {
+          "name": "STAR WARS™ Empire at War - Gold Pack",
+          "score": 0.9763414139000001,
+          "genres": "Strategy"
+        },
+        {
+          "name": "Batman: Arkham Asylum Game of the Year Edition",
+          "score": 0.9631781893,
+          "genres": "Action,Adventure"
+        },
+        {
+          "name": "VVVVVV",
+          "score": 0.9625668449,
+          "genres": "Action,Indie"
+        },
+        {
+          "name": "Fallout: New Vegas",
+          "score": 0.9607467688,
+          "genres": "Action,RPG"
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "game_count": 199,
+      "avg_score": 0.751,
+      "avg_vitality": 38.3,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 93
+        },
+        {
+          "name": "Indie",
+          "value": 81
+        },
+        {
+          "name": "Strategy",
+          "value": 66
+        },
+        {
+          "name": "Adventure",
+          "value": 49
+        },
+        {
+          "name": "RPG",
+          "value": 40
+        },
+        {
+          "name": "Casual",
+          "value": 32
+        },
+        {
+          "name": "Simulation",
+          "value": 24
+        },
+        {
+          "name": "Free To Play",
+          "value": 11
+        },
+        {
+          "name": "Massively Multiplayer",
+          "value": 10
+        },
+        {
+          "name": "Racing",
+          "value": 7
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Action",
+        "Adventure",
+        "Multiplayer",
+        "Indie",
+        "Strategy",
+        "RPG",
+        "Co-op",
+        "Atmospheric",
+        "Shooter",
+        "Great Soundtrack",
+        "Casual",
+        "Sci-fi",
+        "Puzzle",
+        "Third Person"
+      ],
+      "developers": [
+        {
+          "name": "GSC Game World",
+          "value": 6
+        },
+        {
+          "name": "Team17 Digital Ltd",
+          "value": 5
+        },
+        {
+          "name": "Microids",
+          "value": 4
+        },
+        {
+          "name": "Gas Powered Games",
+          "value": 4
+        },
+        {
+          "name": "Bohemia Interactive",
+          "value": 3
+        },
+        {
+          "name": "Ubisoft Montreal",
+          "value": 2
+        },
+        {
+          "name": "Haemimont Games",
+          "value": 2
+        },
+        {
+          "name": "Reality Pump Studios",
+          "value": 2
+        },
+        {
+          "name": "Zeboyd Digital Entertainment LLC",
+          "value": 2
+        },
+        {
+          "name": "Platine Dispositif",
+          "value": 2
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Batman: Arkham City",
+          "score": 0.9848125297,
+          "genres": "Action,Adventure"
+        },
+        {
+          "name": "Terraria",
+          "score": 0.9748168466,
+          "genres": "Action,Adventure,Indie,RPG"
+        },
+        {
+          "name": "Supreme Commander: Forged Alliance",
+          "score": 0.9682975722,
+          "genres": "Strategy"
+        },
+        {
+          "name": "Orcs Must Die!",
+          "score": 0.9592185592,
+          "genres": "Action,Indie,Strategy"
+        },
+        {
+          "name": "Saints Row: The Third",
+          "score": 0.9568956721,
+          "genres": "Action"
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "game_count": 256,
+      "avg_score": 0.774,
+      "avg_vitality": 39.59,
+      "genres": [
+        {
+          "name": "Action",
+          "value": 136
+        },
+        {
+          "name": "Indie",
+          "value": 134
+        },
+        {
+          "name": "Adventure",
+          "value": 94
+        },
+        {
+          "name": "Strategy",
+          "value": 59
+        },
+        {
+          "name": "RPG",
+          "value": 57
+        },
+        {
+          "name": "Casual",
+          "value": 35
+        },
+        {
+          "name": "Simulation",
+          "value": 30
+        },
+        {
+          "name": "Free To Play",
+          "value": 19
+        },
+        {
+          "name": "Massively Multiplayer",
+          "value": 13
+        },
+        {
+          "name": "Racing",
+          "value": 7
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Action",
+        "Adventure",
+        "Indie",
+        "Multiplayer",
+        "2D",
+        "Atmospheric",
+        "Puzzle",
+        "RPG",
+        "Great Soundtrack",
+        "Strategy",
+        "Story Rich",
+        "Fantasy",
+        "Shooter",
+        "Co-op"
+      ],
+      "developers": [
+        {
+          "name": "Core Design",
+          "value": 6
+        },
+        {
+          "name": "Daedalic Entertainment",
+          "value": 5
+        },
+        {
+          "name": "Spiderweb Software",
+          "value": 5
+        },
+        {
+          "name": "Wadjet Eye Games",
+          "value": 4
+        },
+        {
+          "name": "Larian Studios",
+          "value": 3
+        },
+        {
+          "name": "SEGA",
+          "value": 3
+        },
+        {
+          "name": "Cyanide Studios",
+          "value": 2
+        },
+        {
+          "name": "Bohemia Interactive",
+          "value": 2
+        },
+        {
+          "name": "Fulqrum Publishing",
+          "value": 2
+        },
+        {
+          "name": "Reality Pump",
+          "value": 2
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Dishonored",
+          "score": 0.9763994610000001,
+          "genres": "Action,Adventure"
+        },
+        {
+          "name": "Euro Truck Simulator 2",
+          "score": 0.9735705927,
+          "genres": "Indie,Simulation"
+        },
+        {
+          "name": "The Walking Dead",
+          "score": 0.9728911163,
+          "genres": "Adventure"
+        },
+        {
+          "name": "Hotline Miami",
+          "score": 0.9713195447,
+          "genres": "Action,Indie"
+        },
+        {
+          "name": "Super Hexagon",
+          "score": 0.9687158082,
+          "genres": "Action,Indie"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "game_count": 361,
+      "avg_score": 0.769,
+      "avg_vitality": 39.84,
+      "genres": [
+        {
+          "name": "Indie",
+          "value": 197
+        },
+        {
+          "name": "Action",
+          "value": 178
+        },
+        {
+          "name": "Adventure",
+          "value": 145
+        },
+        {
+          "name": "Strategy",
+          "value": 92
+        },
+        {
+          "name": "RPG",
+          "value": 81
+        },
+        {
+          "name": "Simulation",
+          "value": 62
+        },
+        {
+          "name": "Casual",
+          "value": 54
+        },
+        {
+          "name": "Free To Play",
+          "value": 23
+        },
+        {
+          "name": "Racing",
+          "value": 14
+        },
+        {
+          "name": "Massively Multiplayer",
+          "value": 13
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Action",
+        "Indie",
+        "Adventure",
+        "Multiplayer",
+        "Strategy",
+        "2D",
+        "Atmospheric",
+        "Great Soundtrack",
+        "RPG",
+        "Casual",
+        "Co-op",
+        "Puzzle",
+        "Fantasy",
+        "Simulation"
+      ],
+      "developers": [
+        {
+          "name": "Nadeo",
+          "value": 4
+        },
+        {
+          "name": "Daedalic Entertainment",
+          "value": 4
+        },
+        {
+          "name": "11 bit studios",
+          "value": 3
+        },
+        {
+          "name": "Arcen Games",
+          "value": 3
+        },
+        {
+          "name": "Reality Pump",
+          "value": 3
+        },
+        {
+          "name": "Capcom",
+          "value": 2
+        },
+        {
+          "name": "Cyanide Studio",
+          "value": 2
+        },
+        {
+          "name": "Reality Pump Studios",
+          "value": 2
+        },
+        {
+          "name": "Actalogic",
+          "value": 2
+        },
+        {
+          "name": "Firaxis Games",
+          "value": 2
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Rising Storm Game of the Year Edition",
+          "score": 0.9814814815,
+          "genres": "Action"
+        },
+        {
+          "name": "The Wolf Among Us",
+          "score": 0.9785588161000001,
+          "genres": "Action,Adventure,Casual"
+        },
+        {
+          "name": "Neighbours from Hell Compilation",
+          "score": 0.9765385923000001,
+          "genres": "Adventure,Casual"
+        },
+        {
+          "name": "Stronghold Crusader HD (2012)",
+          "score": 0.9764789017000001,
+          "genres": "Simulation,Strategy"
+        },
+        {
+          "name": "Gunpoint",
+          "score": 0.9752558424000001,
+          "genres": "Action,Indie,Strategy"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "game_count": 836,
+      "avg_score": 0.75,
+      "avg_vitality": 37.11,
+      "genres": [
+        {
+          "name": "Indie",
+          "value": 505
+        },
+        {
+          "name": "Action",
+          "value": 385
+        },
+        {
+          "name": "Adventure",
+          "value": 324
+        },
+        {
+          "name": "Strategy",
+          "value": 205
+        },
+        {
+          "name": "Casual",
+          "value": 197
+        },
+        {
+          "name": "RPG",
+          "value": 191
+        },
+        {
+          "name": "Simulation",
+          "value": 117
+        },
+        {
+          "name": "Free To Play",
+          "value": 58
+        },
+        {
+          "name": "Racing",
+          "value": 32
+        },
+        {
+          "name": "Sports",
+          "value": 19
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Indie",
+        "Action",
+        "Adventure",
+        "Casual",
+        "2D",
+        "Strategy",
+        "Multiplayer",
+        "RPG",
+        "Great Soundtrack",
+        "Atmospheric",
+        "Puzzle",
+        "Story Rich",
+        "Fantasy",
+        "Simulation"
+      ],
+      "developers": [
+        {
+          "name": "Artifex Mundi",
+          "value": 8
+        },
+        {
+          "name": "Humongous Entertainment",
+          "value": 6
+        },
+        {
+          "name": "Microids",
+          "value": 5
+        },
+        {
+          "name": "Access Software",
+          "value": 5
+        },
+        {
+          "name": "Square Enix",
+          "value": 4
+        },
+        {
+          "name": "Double Fine Productions",
+          "value": 4
+        },
+        {
+          "name": "Nival",
+          "value": 4
+        },
+        {
+          "name": "Targem Games",
+          "value": 4
+        },
+        {
+          "name": "Forever Entertainment S. A.",
+          "value": 4
+        },
+        {
+          "name": "Wastelands Interactive",
+          "value": 4
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Hidden in Plain Sight",
+          "score": 0.9905437352,
+          "genres": "Action,Casual,Indie"
+        },
+        {
+          "name": "One Finger Death Punch",
+          "score": 0.9793150012,
+          "genres": "Action,Casual,Indie"
+        },
+        {
+          "name": "The Room",
+          "score": 0.9778605421000001,
+          "genres": "Adventure,Indie"
+        },
+        {
+          "name": "Blackwell Epiphany",
+          "score": 0.9764705882,
+          "genres": "Adventure,Indie"
+        },
+        {
+          "name": "South Park™: The Stick of Truth™",
+          "score": 0.9755511961000001,
+          "genres": "Action,Adventure,RPG"
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "game_count": 995,
+      "avg_score": 0.737,
+      "avg_vitality": 36.92,
+      "genres": [
+        {
+          "name": "Indie",
+          "value": 700
+        },
+        {
+          "name": "Action",
+          "value": 453
+        },
+        {
+          "name": "Adventure",
+          "value": 428
+        },
+        {
+          "name": "Casual",
+          "value": 277
+        },
+        {
+          "name": "Strategy",
+          "value": 244
+        },
+        {
+          "name": "RPG",
+          "value": 232
+        },
+        {
+          "name": "Simulation",
+          "value": 173
+        },
+        {
+          "name": "Free To Play",
+          "value": 124
+        },
+        {
+          "name": "Sports",
+          "value": 39
+        },
+        {
+          "name": "Massively Multiplayer",
+          "value": 37
+        }
+      ],
+      "tags": [
+        "Indie",
+        "Singleplayer",
+        "Action",
+        "Adventure",
+        "Casual",
+        "2D",
+        "Strategy",
+        "RPG",
+        "Multiplayer",
+        "Atmospheric",
+        "Great Soundtrack",
+        "Simulation",
+        "Puzzle",
+        "Story Rich",
+        "Pixel Graphics"
+      ],
+      "developers": [
+        {
+          "name": "Warfare Studios",
+          "value": 9
+        },
+        {
+          "name": "KOEI TECMO GAMES CO., LTD.",
+          "value": 6
+        },
+        {
+          "name": "Winged Cloud",
+          "value": 6
+        },
+        {
+          "name": "Rainbow Games",
+          "value": 4
+        },
+        {
+          "name": "Dotemu",
+          "value": 4
+        },
+        {
+          "name": "Funatics Software",
+          "value": 4
+        },
+        {
+          "name": "Square Enix",
+          "value": 3
+        },
+        {
+          "name": "Daedalic Entertainment",
+          "value": 3
+        },
+        {
+          "name": "Sometimes You",
+          "value": 3
+        },
+        {
+          "name": "Labyrinthine",
+          "value": 3
+        }
+      ],
+      "top_games": [
+        {
+          "name": "CLANNAD",
+          "score": 0.9845520082,
+          "genres": "Adventure,Casual"
+        },
+        {
+          "name": "Hylics",
+          "score": 0.9826788114,
+          "genres": "Indie,RPG"
+        },
+        {
+          "name": "Paint it Back",
+          "score": 0.9779005525000001,
+          "genres": "Casual"
+        },
+        {
+          "name": "The Legend of Heroes: Trails in the Sky SC",
+          "score": 0.9774193548000001,
+          "genres": "RPG"
+        },
+        {
+          "name": "Eternal Senia",
+          "score": 0.9756464976,
+          "genres": "Action,Free To Play,Indie,RPG"
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "game_count": 1357,
+      "avg_score": 0.747,
+      "avg_vitality": 36.83,
+      "genres": [
+        {
+          "name": "Indie",
+          "value": 930
+        },
+        {
+          "name": "Action",
+          "value": 593
+        },
+        {
+          "name": "Adventure",
+          "value": 549
+        },
+        {
+          "name": "Casual",
+          "value": 488
+        },
+        {
+          "name": "Strategy",
+          "value": 297
+        },
+        {
+          "name": "Simulation",
+          "value": 273
+        },
+        {
+          "name": "RPG",
+          "value": 250
+        },
+        {
+          "name": "Free To Play",
+          "value": 180
+        },
+        {
+          "name": "Massively Multiplayer",
+          "value": 57
+        },
+        {
+          "name": "Sports",
+          "value": 52
+        }
+      ],
+      "tags": [
+        "Indie",
+        "Singleplayer",
+        "Action",
+        "Adventure",
+        "Casual",
+        "2D",
+        "Strategy",
+        "Multiplayer",
+        "Atmospheric",
+        "Simulation",
+        "RPG",
+        "Puzzle",
+        "Great Soundtrack",
+        "Story Rich",
+        "Free to Play"
+      ],
+      "developers": [
+        {
+          "name": "EnsenaSoft",
+          "value": 18
+        },
+        {
+          "name": "EGAMER",
+          "value": 11
+        },
+        {
+          "name": "Mihai Morosanu",
+          "value": 7
+        },
+        {
+          "name": "Creobit",
+          "value": 7
+        },
+        {
+          "name": "Warfare Studios",
+          "value": 6
+        },
+        {
+          "name": "Volens Nolens Games",
+          "value": 6
+        },
+        {
+          "name": "FIVE-BN GAMES",
+          "value": 5
+        },
+        {
+          "name": "Fabio Ferrara",
+          "value": 4
+        },
+        {
+          "name": "Spike Chunsoft Co., Ltd.",
+          "value": 4
+        },
+        {
+          "name": "HFM Games",
+          "value": 4
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Aseprite",
+          "score": 0.9908795087000001,
+          "genres": "Animation & Modeling,Design & Illustration,Game Development"
+        },
+        {
+          "name": "BLUE REVOLVER",
+          "score": 0.9879679144000001,
+          "genres": "Action,Indie"
+        },
+        {
+          "name": "Stardew Valley",
+          "score": 0.9844142831,
+          "genres": "Indie,RPG,Simulation"
+        },
+        {
+          "name": "OneShot",
+          "score": 0.982869379,
+          "genres": "Adventure,Casual,Indie"
+        },
+        {
+          "name": "TY the Tasmanian Tiger",
+          "score": 0.9795918367,
+          "genres": "Action,Adventure,Indie"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "game_count": 1147,
+      "avg_score": 0.751,
+      "avg_vitality": 38.01,
+      "genres": [
+        {
+          "name": "Indie",
+          "value": 771
+        },
+        {
+          "name": "Action",
+          "value": 551
+        },
+        {
+          "name": "Adventure",
+          "value": 466
+        },
+        {
+          "name": "Casual",
+          "value": 350
+        },
+        {
+          "name": "Strategy",
+          "value": 265
+        },
+        {
+          "name": "Simulation",
+          "value": 233
+        },
+        {
+          "name": "RPG",
+          "value": 222
+        },
+        {
+          "name": "Free To Play",
+          "value": 201
+        },
+        {
+          "name": "Massively Multiplayer",
+          "value": 74
+        },
+        {
+          "name": "Early Access",
+          "value": 59
+        }
+      ],
+      "tags": [
+        "Indie",
+        "Singleplayer",
+        "Action",
+        "Adventure",
+        "Casual",
+        "Multiplayer",
+        "Strategy",
+        "2D",
+        "Atmospheric",
+        "RPG",
+        "Simulation",
+        "Great Soundtrack",
+        "Story Rich",
+        "Free to Play",
+        "Puzzle"
+      ],
+      "developers": [
+        {
+          "name": "Warfare Studios",
+          "value": 10
+        },
+        {
+          "name": "Quiet River",
+          "value": 8
+        },
+        {
+          "name": "Amaterasu Software",
+          "value": 7
+        },
+        {
+          "name": "KOEI TECMO GAMES CO., LTD.",
+          "value": 7
+        },
+        {
+          "name": "Konstructors",
+          "value": 5
+        },
+        {
+          "name": "Racing Bros",
+          "value": 5
+        },
+        {
+          "name": "EGAMER",
+          "value": 5
+        },
+        {
+          "name": "ColloseusX",
+          "value": 4
+        },
+        {
+          "name": "HFM Games",
+          "value": 4
+        },
+        {
+          "name": "Croteam VR",
+          "value": 4
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Touhou Tenkuushou ~ Hidden Star in Four Seasons.",
+          "score": 0.9846564376,
+          "genres": "Action,Indie"
+        },
+        {
+          "name": "VTOL VR",
+          "score": 0.9808973101,
+          "genres": "Action,Indie,Simulation"
+        },
+        {
+          "name": "Slime Rancher",
+          "score": 0.9795290301,
+          "genres": "Action,Adventure,Indie,Simulation"
+        },
+        {
+          "name": "A Hat in Time",
+          "score": 0.9785056493000001,
+          "genres": "Adventure,Indie"
+        },
+        {
+          "name": "Finding Paradise",
+          "score": 0.9780963547,
+          "genres": "Adventure,Indie,RPG"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "game_count": 1041,
+      "avg_score": 0.772,
+      "avg_vitality": 39.46,
+      "genres": [
+        {
+          "name": "Indie",
+          "value": 693
+        },
+        {
+          "name": "Action",
+          "value": 429
+        },
+        {
+          "name": "Adventure",
+          "value": 403
+        },
+        {
+          "name": "Casual",
+          "value": 314
+        },
+        {
+          "name": "Simulation",
+          "value": 254
+        },
+        {
+          "name": "RPG",
+          "value": 253
+        },
+        {
+          "name": "Strategy",
+          "value": 240
+        },
+        {
+          "name": "Free To Play",
+          "value": 213
+        },
+        {
+          "name": "Massively Multiplayer",
+          "value": 78
+        },
+        {
+          "name": "Early Access",
+          "value": 64
+        }
+      ],
+      "tags": [
+        "Indie",
+        "Singleplayer",
+        "Action",
+        "Adventure",
+        "Casual",
+        "Multiplayer",
+        "Simulation",
+        "Strategy",
+        "RPG",
+        "2D",
+        "Free to Play",
+        "Atmospheric",
+        "Story Rich",
+        "Great Soundtrack",
+        "Puzzle"
+      ],
+      "developers": [
+        {
+          "name": "KOEI TECMO GAMES CO., LTD.",
+          "value": 6
+        },
+        {
+          "name": "upjers",
+          "value": 6
+        },
+        {
+          "name": "Square Enix",
+          "value": 5
+        },
+        {
+          "name": "Quiet River",
+          "value": 5
+        },
+        {
+          "name": "Easy game",
+          "value": 5
+        },
+        {
+          "name": "Milestone S.r.l.",
+          "value": 5
+        },
+        {
+          "name": "KuKo",
+          "value": 4
+        },
+        {
+          "name": "LucasArts",
+          "value": 4
+        },
+        {
+          "name": "L. Stotch",
+          "value": 3
+        },
+        {
+          "name": "FreezeNova",
+          "value": 3
+        }
+      ],
+      "top_games": [
+        {
+          "name": "The Void Rains Upon Her Heart",
+          "score": 0.9915611814,
+          "genres": "Action,Indie,Early Access"
+        },
+        {
+          "name": "Epic Battle Fantasy 5",
+          "score": 0.9864382584,
+          "genres": "Adventure,RPG,Strategy"
+        },
+        {
+          "name": "Google Spotlight Stories: Age of Sail",
+          "score": 0.9828326180000001,
+          "genres": "Adventure,Free To Play"
+        },
+        {
+          "name": "Hello Charlotte EP3: Childhood's End",
+          "score": 0.9815809670000001,
+          "genres": "Indie,RPG"
+        },
+        {
+          "name": "Wallpaper Engine",
+          "score": 0.9803669033,
+          "genres": "Casual,Indie,Animation & Modeling,Design & Illustration,Photo Editing,Utilities"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "game_count": 917,
+      "avg_score": 0.791,
+      "avg_vitality": 40.86,
+      "genres": [
+        {
+          "name": "Indie",
+          "value": 618
+        },
+        {
+          "name": "Action",
+          "value": 392
+        },
+        {
+          "name": "Adventure",
+          "value": 378
+        },
+        {
+          "name": "Casual",
+          "value": 256
+        },
+        {
+          "name": "Strategy",
+          "value": 236
+        },
+        {
+          "name": "Simulation",
+          "value": 226
+        },
+        {
+          "name": "RPG",
+          "value": 225
+        },
+        {
+          "name": "Free To Play",
+          "value": 193
+        },
+        {
+          "name": "Early Access",
+          "value": 73
+        },
+        {
+          "name": "Massively Multiplayer",
+          "value": 64
+        }
+      ],
+      "tags": [
+        "Indie",
+        "Singleplayer",
+        "Action",
+        "Adventure",
+        "Multiplayer",
+        "Casual",
+        "RPG",
+        "Strategy",
+        "Simulation",
+        "2D",
+        "Free to Play",
+        "Story Rich",
+        "Atmospheric",
+        "Great Soundtrack",
+        "Funny"
+      ],
+      "developers": [
+        {
+          "name": "Dynamic Pixels",
+          "value": 5
+        },
+        {
+          "name": "DSGame",
+          "value": 5
+        },
+        {
+          "name": "KONAMI",
+          "value": 3
+        },
+        {
+          "name": "Quiet River",
+          "value": 3
+        },
+        {
+          "name": "Haemimont Games",
+          "value": 3
+        },
+        {
+          "name": "VikTor",
+          "value": 3
+        },
+        {
+          "name": "熊窝dodox",
+          "value": 3
+        },
+        {
+          "name": "Milestone S.r.l.",
+          "value": 3
+        },
+        {
+          "name": "Arc System Works",
+          "value": 3
+        },
+        {
+          "name": "Ubisoft Blue Byte",
+          "value": 3
+        }
+      ],
+      "top_games": [
+        {
+          "name": "A Short Hike",
+          "score": 0.9915552059,
+          "genres": "Adventure,Indie"
+        },
+        {
+          "name": "DOTOKOI / 像素男友",
+          "score": 0.988267148,
+          "genres": "Casual,Indie,RPG"
+        },
+        {
+          "name": "Grimm's Hollow",
+          "score": 0.9859550562,
+          "genres": "Adventure,Free To Play,Indie,RPG"
+        },
+        {
+          "name": "People Playground",
+          "score": 0.9857398390000001,
+          "genres": "Action,Casual,Indie,Simulation"
+        },
+        {
+          "name": "Voxelgram",
+          "score": 0.9830795262,
+          "genres": "Casual,Indie,Strategy"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "game_count": 1272,
+      "avg_score": 0.787,
+      "avg_vitality": 40.3,
+      "genres": [
+        {
+          "name": "Indie",
+          "value": 856
+        },
+        {
+          "name": "Action",
+          "value": 584
+        },
+        {
+          "name": "Adventure",
+          "value": 554
+        },
+        {
+          "name": "Casual",
+          "value": 407
+        },
+        {
+          "name": "RPG",
+          "value": 330
+        },
+        {
+          "name": "Simulation",
+          "value": 318
+        },
+        {
+          "name": "Strategy",
+          "value": 291
+        },
+        {
+          "name": "Free To Play",
+          "value": 269
+        },
+        {
+          "name": "Early Access",
+          "value": 84
+        },
+        {
+          "name": "Sports",
+          "value": 65
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Indie",
+        "Action",
+        "Adventure",
+        "Casual",
+        "Multiplayer",
+        "2D",
+        "RPG",
+        "Story Rich",
+        "Simulation",
+        "Atmospheric",
+        "Strategy",
+        "Free to Play",
+        "First-Person",
+        "Puzzle"
+      ],
+      "developers": [
+        {
+          "name": "DICE",
+          "value": 8
+        },
+        {
+          "name": "USERJOY Technology Co.,Ltd.",
+          "value": 6
+        },
+        {
+          "name": "DSGame",
+          "value": 6
+        },
+        {
+          "name": "Epyx, Inc.",
+          "value": 5
+        },
+        {
+          "name": "Minimol Games",
+          "value": 4
+        },
+        {
+          "name": "ZOO Digital Publishing",
+          "value": 4
+        },
+        {
+          "name": "White Blanket Games",
+          "value": 4
+        },
+        {
+          "name": "Sinned Games",
+          "value": 4
+        },
+        {
+          "name": "BioWare",
+          "value": 4
+        },
+        {
+          "name": "Live Motion Games",
+          "value": 4
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Senren＊Banka",
+          "score": 0.9885035386000001,
+          "genres": "Adventure,Casual"
+        },
+        {
+          "name": "Our Life: Beginnings & Always",
+          "score": 0.9881956155,
+          "genres": "Casual,Indie,Free To Play"
+        },
+        {
+          "name": "Summer Pockets",
+          "score": 0.9866267005,
+          "genres": "Adventure,Casual"
+        },
+        {
+          "name": "The Henry Stickmin Collection",
+          "score": 0.9865480581,
+          "genres": "Adventure,Casual,Indie"
+        },
+        {
+          "name": "The Supper",
+          "score": 0.9859291606,
+          "genres": "Adventure,Casual,Indie,Free To Play"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "game_count": 1275,
+      "avg_score": 0.775,
+      "avg_vitality": 40.41,
+      "genres": [
+        {
+          "name": "Indie",
+          "value": 862
+        },
+        {
+          "name": "Adventure",
+          "value": 601
+        },
+        {
+          "name": "Action",
+          "value": 562
+        },
+        {
+          "name": "Casual",
+          "value": 409
+        },
+        {
+          "name": "RPG",
+          "value": 362
+        },
+        {
+          "name": "Simulation",
+          "value": 296
+        },
+        {
+          "name": "Strategy",
+          "value": 288
+        },
+        {
+          "name": "Free To Play",
+          "value": 137
+        },
+        {
+          "name": "Early Access",
+          "value": 106
+        },
+        {
+          "name": "Massively Multiplayer",
+          "value": 46
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Adventure",
+        "Action",
+        "Indie",
+        "2D",
+        "Casual",
+        "3D",
+        "Story Rich",
+        "RPG",
+        "Atmospheric",
+        "Exploration",
+        "First-Person",
+        "Strategy",
+        "Simulation",
+        "Puzzle"
+      ],
+      "developers": [
+        {
+          "name": "KOEI TECMO GAMES CO., LTD.",
+          "value": 9
+        },
+        {
+          "name": "Square Enix",
+          "value": 7
+        },
+        {
+          "name": "CAPCOM Co., Ltd.",
+          "value": 5
+        },
+        {
+          "name": "Ryu Ga Gotoku Studio",
+          "value": 5
+        },
+        {
+          "name": "橙光游戏",
+          "value": 4
+        },
+        {
+          "name": "Do Games Limited",
+          "value": 4
+        },
+        {
+          "name": "Capstone Software",
+          "value": 4
+        },
+        {
+          "name": "Lovely Games",
+          "value": 4
+        },
+        {
+          "name": "Two Star Games",
+          "value": 3
+        },
+        {
+          "name": "DSGame",
+          "value": 3
+        }
+      ],
+      "top_games": [
+        {
+          "name": "Aventura Copilului Albastru și Urât",
+          "score": 0.9923108053,
+          "genres": "Adventure,Casual,Indie"
+        },
+        {
+          "name": "TOEM: A Photo Adventure",
+          "score": 0.9920104937,
+          "genres": "Adventure,Casual,Indie"
+        },
+        {
+          "name": "NOeSIS02_羽化",
+          "score": 0.9899425287,
+          "genres": "Adventure,Casual,Free To Play,Indie,RPG,Simulation"
+        },
+        {
+          "name": "Fractal Block World",
+          "score": 0.9894921191,
+          "genres": "Action,Adventure,Indie"
+        },
+        {
+          "name": "Word Game: Episode 0",
+          "score": 0.9874421679000001,
+          "genres": "Adventure,Indie,RPG,Strategy"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "game_count": 1104,
+      "avg_score": 0.777,
+      "avg_vitality": 41.29,
+      "genres": [
+        {
+          "name": "Indie",
+          "value": 679
+        },
+        {
+          "name": "Adventure",
+          "value": 538
+        },
+        {
+          "name": "Action",
+          "value": 510
+        },
+        {
+          "name": "Casual",
+          "value": 336
+        },
+        {
+          "name": "RPG",
+          "value": 312
+        },
+        {
+          "name": "Strategy",
+          "value": 288
+        },
+        {
+          "name": "Simulation",
+          "value": 280
+        },
+        {
+          "name": "Early Access",
+          "value": 105
+        },
+        {
+          "name": "Free To Play",
+          "value": 77
+        },
+        {
+          "name": "Massively Multiplayer",
+          "value": 42
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Action",
+        "Adventure",
+        "Indie",
+        "2D",
+        "3D",
+        "RPG",
+        "Casual",
+        "Story Rich",
+        "Atmospheric",
+        "Exploration",
+        "Strategy",
+        "Simulation",
+        "First-Person",
+        "Colorful"
+      ],
+      "developers": [
+        {
+          "name": "Do Games Limited",
+          "value": 7
+        },
+        {
+          "name": "GamesBraz",
+          "value": 6
+        },
+        {
+          "name": "Square Enix",
+          "value": 5
+        },
+        {
+          "name": "SOFTSTAR ENTERTAINMENT",
+          "value": 4
+        },
+        {
+          "name": "CAPCOM Co., Ltd.",
+          "value": 3
+        },
+        {
+          "name": "KOEI TECMO GAMES CO., LTD.",
+          "value": 3
+        },
+        {
+          "name": "eSolutions",
+          "value": 3
+        },
+        {
+          "name": "INTI CREATES CO., LTD.",
+          "value": 2
+        },
+        {
+          "name": "Take IT Studio!",
+          "value": 2
+        },
+        {
+          "name": "Turquoise Revival Games",
+          "value": 2
+        }
+      ],
+      "top_games": [
+        {
+          "name": "PRODUCER 2021",
+          "score": 0.994047619,
+          "genres": "Adventure,RPG,Simulation"
+        },
+        {
+          "name": "A Castle Full of Cats",
+          "score": 0.9940149626,
+          "genres": "Adventure,Casual"
+        },
+        {
+          "name": "The Upturned",
+          "score": 0.9923890063,
+          "genres": "Action,Adventure,Indie"
+        },
+        {
+          "name": "Dialtown: Phone Dating Sim",
+          "score": 0.9923273657,
+          "genres": "Casual,Indie"
+        },
+        {
+          "name": "Patrick's Parabox",
+          "score": 0.9919517103000001,
+          "genres": "Casual,Indie,Strategy"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "game_count": 1136,
+      "avg_score": 0.79,
+      "avg_vitality": 42.86,
+      "genres": [
+        {
+          "name": "Indie",
+          "value": 753
+        },
+        {
+          "name": "Action",
+          "value": 582
+        },
+        {
+          "name": "Adventure",
+          "value": 548
+        },
+        {
+          "name": "RPG",
+          "value": 339
+        },
+        {
+          "name": "Casual",
+          "value": 311
+        },
+        {
+          "name": "Strategy",
+          "value": 283
+        },
+        {
+          "name": "Simulation",
+          "value": 265
+        },
+        {
+          "name": "Early Access",
+          "value": 116
+        },
+        {
+          "name": "Free To Play",
+          "value": 56
+        },
+        {
+          "name": "Sports",
+          "value": 44
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Action",
+        "Adventure",
+        "3D",
+        "RPG",
+        "Exploration",
+        "Indie",
+        "2D",
+        "Atmospheric",
+        "Story Rich",
+        "Casual",
+        "First-Person",
+        "Strategy",
+        "Multiplayer",
+        "Simulation"
+      ],
+      "developers": [
+        {
+          "name": "CAPCOM Co., Ltd.",
+          "value": 6
+        },
+        {
+          "name": "KOEI TECMO GAMES CO., LTD.",
+          "value": 6
+        },
+        {
+          "name": "Euphoric Brothers",
+          "value": 5
+        },
+        {
+          "name": "Cyanide Studio",
+          "value": 3
+        },
+        {
+          "name": "T-Time Technology CO., LTD.",
+          "value": 3
+        },
+        {
+          "name": "ATLUS",
+          "value": 3
+        },
+        {
+          "name": "KONAMI",
+          "value": 3
+        },
+        {
+          "name": "Rockstar Games",
+          "value": 3
+        },
+        {
+          "name": "Vidas Salavejus",
+          "value": 2
+        },
+        {
+          "name": "Soleil Ltd.",
+          "value": 2
+        }
+      ],
+      "top_games": [
+        {
+          "name": "MareQuest: An Interactive Tail",
+          "score": 0.9947643979,
+          "genres": "Adventure,Casual,Indie,RPG"
+        },
+        {
+          "name": "Papa's Freezeria Deluxe",
+          "score": 0.9924878480000001,
+          "genres": "Action,Casual,Indie,Simulation,Strategy"
+        },
+        {
+          "name": "Smushi Come Home",
+          "score": 0.9905063291,
+          "genres": "Adventure,Casual,Indie,RPG"
+        },
+        {
+          "name": "HoloCure - Save the Fans!",
+          "score": 0.9904177745,
+          "genres": "Action,Adventure,Casual,Indie"
+        },
+        {
+          "name": "Picayune Dreams",
+          "score": 0.9872670807,
+          "genres": "Action"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "game_count": 1058,
+      "avg_score": 0.794,
+      "avg_vitality": 44.84,
+      "genres": [
+        {
+          "name": "Indie",
+          "value": 693
+        },
+        {
+          "name": "Adventure",
+          "value": 512
+        },
+        {
+          "name": "Action",
+          "value": 501
+        },
+        {
+          "name": "RPG",
+          "value": 352
+        },
+        {
+          "name": "Simulation",
+          "value": 306
+        },
+        {
+          "name": "Strategy",
+          "value": 302
+        },
+        {
+          "name": "Casual",
+          "value": 280
+        },
+        {
+          "name": "Early Access",
+          "value": 154
+        },
+        {
+          "name": "Free To Play",
+          "value": 64
+        },
+        {
+          "name": "Massively Multiplayer",
+          "value": 39
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Action",
+        "Adventure",
+        "3D",
+        "RPG",
+        "Exploration",
+        "Indie",
+        "Strategy",
+        "First-Person",
+        "2D",
+        "Simulation",
+        "Story Rich",
+        "Atmospheric",
+        "Casual",
+        "Multiplayer"
+      ],
+      "developers": [
+        {
+          "name": "CAPCOM Co., Ltd.",
+          "value": 6
+        },
+        {
+          "name": "Bullfrog Productions",
+          "value": 4
+        },
+        {
+          "name": "Strange Scaffold",
+          "value": 3
+        },
+        {
+          "name": "Square Enix",
+          "value": 3
+        },
+        {
+          "name": "ATLUS",
+          "value": 3
+        },
+        {
+          "name": "Frontier Developments",
+          "value": 2
+        },
+        {
+          "name": "Aspyr,Crystal Dynamics",
+          "value": 2
+        },
+        {
+          "name": "Schwan OG",
+          "value": 2
+        },
+        {
+          "name": "Spike Chunsoft Co., Ltd.",
+          "value": 2
+        },
+        {
+          "name": "Mega Cat Studios",
+          "value": 2
+        }
+      ],
+      "top_games": [
+        {
+          "name": "The WereCleaner",
+          "score": 0.9942687747000001,
+          "genres": "Action,Casual,Indie,Strategy,Free To Play"
+        },
+        {
+          "name": "Scarmonde",
+          "score": 0.9939024390000001,
+          "genres": "Adventure,Indie,RPG"
+        },
+        {
+          "name": "Buy a Croquette!",
+          "score": 0.9902228286,
+          "genres": "Adventure,Casual,Indie,RPG,Strategy,Free To Play"
+        },
+        {
+          "name": "Angel at Dusk",
+          "score": 0.9901477833000001,
+          "genres": "Action,Indie"
+        },
+        {
+          "name": "Last Stand Delivery",
+          "score": 0.9898989899,
+          "genres": "Strategy"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "game_count": 459,
+      "avg_score": 0.804,
+      "avg_vitality": 47.55,
+      "genres": [
+        {
+          "name": "Indie",
+          "value": 299
+        },
+        {
+          "name": "Action",
+          "value": 217
+        },
+        {
+          "name": "Adventure",
+          "value": 213
+        },
+        {
+          "name": "RPG",
+          "value": 172
+        },
+        {
+          "name": "Simulation",
+          "value": 169
+        },
+        {
+          "name": "Strategy",
+          "value": 146
+        },
+        {
+          "name": "Casual",
+          "value": 119
+        },
+        {
+          "name": "Early Access",
+          "value": 67
+        },
+        {
+          "name": "Racing",
+          "value": 22
+        },
+        {
+          "name": "Massively Multiplayer",
+          "value": 18
+        }
+      ],
+      "tags": [
+        "Singleplayer",
+        "Adventure",
+        "Action",
+        "Early Access",
+        "RPG",
+        "3D",
+        "Simulation",
+        "Exploration",
+        "Atmospheric",
+        "First-Person",
+        "Strategy",
+        "Indie",
+        "Multiplayer",
+        "Casual",
+        "2D"
+      ],
+      "developers": [
+        {
+          "name": "KOEI TECMO GAMES CO., LTD.",
+          "value": 4
+        },
+        {
+          "name": "Beshbarmak games",
+          "value": 2
+        },
+        {
+          "name": "CAPCOM Co., Ltd.",
+          "value": 2
+        },
+        {
+          "name": "GSC Game World",
+          "value": 2
+        },
+        {
+          "name": "Kiki Games",
+          "value": 2
+        },
+        {
+          "name": "Rebellion",
+          "value": 2
+        },
+        {
+          "name": "Ryu Ga Gotoku Studio",
+          "value": 2
+        },
+        {
+          "name": "游戏养家工作室",
+          "value": 2
+        },
+        {
+          "name": "Live Wire",
+          "value": 1
+        },
+        {
+          "name": "Adna Zhao",
+          "value": 1
+        }
+      ],
+      "top_games": [
+        {
+          "name": "A Webbing Journey",
+          "score": 0.9959839357,
+          "genres": "Adventure,Indie,Simulation,Early Access"
+        },
+        {
+          "name": "Monster Prom 4: Monster Con",
+          "score": 0.9923875433,
+          "genres": "Casual,Indie,Simulation,Strategy"
+        },
+        {
+          "name": "Look Outside",
+          "score": 0.9894059781000001,
+          "genres": "Adventure,RPG"
+        },
+        {
+          "name": "DELTARUNE",
+          "score": 0.9887165021000001,
+          "genres": "Indie,RPG"
+        },
+        {
+          "name": "Threefold Recital",
+          "score": 0.9884925201,
+          "genres": "Adventure,Indie"
+        }
+      ]
+    }
+  ]
+}

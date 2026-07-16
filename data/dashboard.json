@@ -1,0 +1,290 @@
+{
+  "description": "Steam Galaxy Observatory Dashboard",
+  "overview": {
+    "total_games": 114172,
+    "analyzed_games": 14011,
+    "avg_score": 0.773,
+    "avg_vitality": 40.1,
+    "active_year": 2016
+  },
+  "health": {
+    "score": 70.6,
+    "quality": 77.3,
+    "vitality": 40.1,
+    "diversity": 100
+  },
+  "genres": [
+    {
+      "name": "Indie",
+      "value": 8891
+    },
+    {
+      "name": "Action",
+      "value": 6450
+    },
+    {
+      "name": "Adventure",
+      "value": 5911
+    },
+    {
+      "name": "Casual",
+      "value": 3950
+    },
+    {
+      "name": "RPG",
+      "value": 3511
+    },
+    {
+      "name": "Strategy",
+      "value": 3474
+    },
+    {
+      "name": "Simulation",
+      "value": 3078
+    },
+    {
+      "name": "Free To Play",
+      "value": 1652
+    },
+    {
+      "name": "Early Access",
+      "value": 916
+    },
+    {
+      "name": "Massively Multiplayer",
+      "value": 599
+    },
+    {
+      "name": "Sports",
+      "value": 510
+    },
+    {
+      "name": "Racing",
+      "value": 484
+    },
+    {
+      "name": "Utilities",
+      "value": 98
+    },
+    {
+      "name": "Design & Illustration",
+      "value": 53
+    },
+    {
+      "name": "Animation & Modeling",
+      "value": 41
+    }
+  ],
+  "developers": [
+    {
+      "name": "KOEI TECMO GAMES CO., LTD.",
+      "value": 51
+    },
+    {
+      "name": "Square Enix",
+      "value": 41
+    },
+    {
+      "name": "CAPCOM Co., Ltd.",
+      "value": 37
+    },
+    {
+      "name": "Valve",
+      "value": 29
+    },
+    {
+      "name": "Milestone S.r.l.",
+      "value": 27
+    },
+    {
+      "name": "Warfare Studios",
+      "value": 25
+    },
+    {
+      "name": "Daedalic Entertainment",
+      "value": 22
+    },
+    {
+      "name": "Ubisoft Montreal",
+      "value": 20
+    },
+    {
+      "name": "Quiet River",
+      "value": 20
+    },
+    {
+      "name": "PopCap Games, Inc.",
+      "value": 19
+    },
+    {
+      "name": "Arc System Works",
+      "value": 18
+    },
+    {
+      "name": "EnsenaSoft",
+      "value": 18
+    }
+  ],
+  "tags": [
+    {
+      "name": "Singleplayer",
+      "value": 9236
+    },
+    {
+      "name": "Action",
+      "value": 7018
+    },
+    {
+      "name": "Indie",
+      "value": 7003
+    },
+    {
+      "name": "Adventure",
+      "value": 6612
+    },
+    {
+      "name": "Casual",
+      "value": 4499
+    },
+    {
+      "name": "2D",
+      "value": 3988
+    },
+    {
+      "name": "Strategy",
+      "value": 3867
+    },
+    {
+      "name": "Multiplayer",
+      "value": 3864
+    },
+    {
+      "name": "RPG",
+      "value": 3843
+    },
+    {
+      "name": "Atmospheric",
+      "value": 3690
+    },
+    {
+      "name": "Story Rich",
+      "value": 3362
+    },
+    {
+      "name": "Simulation",
+      "value": 3329
+    },
+    {
+      "name": "Puzzle",
+      "value": 2841
+    },
+    {
+      "name": "First-Person",
+      "value": 2761
+    },
+    {
+      "name": "Exploration",
+      "value": 2607
+    },
+    {
+      "name": "Fantasy",
+      "value": 2323
+    },
+    {
+      "name": "Horror",
+      "value": 2284
+    },
+    {
+      "name": "3D",
+      "value": 2274
+    },
+    {
+      "name": "Shooter",
+      "value": 2256
+    },
+    {
+      "name": "Pixel Graphics",
+      "value": 2183
+    },
+    {
+      "name": "Great Soundtrack",
+      "value": 2160
+    },
+    {
+      "name": "Open World",
+      "value": 2147
+    },
+    {
+      "name": "Sci-fi",
+      "value": 2134
+    },
+    {
+      "name": "Funny",
+      "value": 2063
+    },
+    {
+      "name": "Co-op",
+      "value": 2047
+    },
+    {
+      "name": "Free to Play",
+      "value": 1839
+    },
+    {
+      "name": "Third Person",
+      "value": 1830
+    },
+    {
+      "name": "Female Protagonist",
+      "value": 1776
+    },
+    {
+      "name": "Anime",
+      "value": 1771
+    },
+    {
+      "name": "Cute",
+      "value": 1737
+    },
+    {
+      "name": "Colorful",
+      "value": 1675
+    },
+    {
+      "name": "FPS",
+      "value": 1634
+    },
+    {
+      "name": "Difficult",
+      "value": 1622
+    },
+    {
+      "name": "Arcade",
+      "value": 1590
+    },
+    {
+      "name": "Survival",
+      "value": 1569
+    },
+    {
+      "name": "Early Access",
+      "value": 1549
+    },
+    {
+      "name": "Sandbox",
+      "value": 1533
+    },
+    {
+      "name": "Retro",
+      "value": 1504
+    },
+    {
+      "name": "Psychological Horror",
+      "value": 1406
+    },
+    {
+      "name": "Platformer",
+      "value": 1355
+    }
+  ]
+}

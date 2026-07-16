@@ -1,0 +1,16 @@
+# 原始大数据
+data/steam.csv
+data/steam_clean.csv
+data/steam_clean.json
+data/steam_galaxy.json
+data0
+
+# Python缓存
+__pycache__/
+*.pyc
+
+# 临时文件
+*.tmp
+
+# IDE
+.vscode/

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>智能推荐实验室 · Steam Game Galaxy</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/recommend.css" />
+</head>
+<body>
+
+    <div id="space-bg"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <nav class="navbar">
+        <a href="index_galaxy.html" class="logo">
+            <span class="logo-icon">✦</span>
+            <span class="logo-text">Game Galaxy</span>
+            <span class="logo-sub">EXPLORER</span>
+        </a>
+        <div class="nav-right">
+            <span class="status-dot"></span>
+            <span id="statusText" style="font-size:12px;color:#4a6a7a;">加载中...</span>
+            <a href="index_galaxy.html" class="nav-link">银河</a>
+            <a href="profile.html" class="nav-link">档案</a>
+            <a href="graph.html" class="nav-link">图谱</a>
+            <a href="recommend.html" class="nav-link active">推荐</a>
+            <a href="dashboard.html" class="nav-link">驾驶舱</a>
+            <a href="compare.html" class="nav-link">对比</a>
+            <a href="evolution.html" class="nav-link">演变</a>
+        </div>
+    </nav>
+
+    <div class="main-content" id="app">
+        <div class="breadcrumb">
+            <a href="index_galaxy.html">✦ 银河</a>
+            <span class="sep">›</span>
+            <span>智能推荐实验室</span>
+        </div>
+
+        <div class="page-header">
+            <div>
+                <h1>🧪 智能推荐实验室</h1>
+                <div class="sub">基于 TF-IDF + 游戏画像的混合推荐引擎</div>
+            </div>
+        </div>
+
+        <div class="selector-section">
+            <span class="label">🎯 选择一款游戏：</span>
+            <select id="gameSelect"><option value="">— 加载游戏中 —</option></select>
+            <button class="btn-recommend" id="recommendBtn">🚀 生成推荐</button>
+        </div>
+
+        <div class="result-section" id="resultSection">
+            <div class="result-header">
+                <div class="title">🎯 为您推荐 <span id="sourceGameName">—</span> 的相似游戏</div>
+                <div class="count" id="resultCount">共 0 款</div>
+            </div>
+            <div class="recommend-grid" id="recommendGrid"></div>
+        </div>
+
+        <div class="empty-state" id="emptyState">
+            <div class="icon">🔬</div>
+            <div class="text">选择一款游戏，开始发现相似作品</div>
+            <div class="hint">系统基于 TF-IDF 标签语义 + 六维画像进行混合推荐</div>
+        </div>
+
+        <div class="footer">Steam Game Galaxy · 智能推荐实验室 · 基于 TF-IDF + 游戏画像混合推荐</div>
+    </div>
+
+    <script src="js/recommend.js"></script>
+</body>
+</html>

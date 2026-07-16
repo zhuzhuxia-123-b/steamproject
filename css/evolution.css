@@ -1,0 +1,317 @@
+/* =========================================
+   Steam Evolution
+   Galaxy Timeline Explorer
+
+   Style:
+   Steam Game Galaxy
+========================================= */
+
+.main-content{
+
+    padding-top:20px !important;
+
+}
+
+
+.evolution-header{
+
+    padding-top:10px;
+
+    padding-bottom:20px;
+
+}
+.profile-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 20px;
+    backdrop-filter: blur(8px);
+    margin-bottom: 24px;
+}
+
+.profile-card .card-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #5a7a8a;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+.profile-card .icon {
+    font-size: 16px;
+}
+body{
+
+    background:#070b15;
+
+    color:#dcecff;
+
+}
+/* ============================
+   页面标题
+============================ */
+
+.evolution-header {
+    text-align: center;
+    padding: 30px 0 35px;
+}
+
+.evolution-header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 42px;
+    letter-spacing: 4px;
+    margin: 0;
+    background: linear-gradient(90deg, #66c0f4, #c084fc, #ffd93d);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.evolution-header p {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #c5d8ee;
+}
+
+.evolution-header .subtitle {
+    margin-top: 10px;
+    font-family: 'JetBrains Mono';
+    color: #55758a;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+/* ============================
+   时间轴控制
+============================ */
+
+.timeline-panel {
+    margin-bottom: 25px;
+}
+
+.year-display {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.year-display span:first-child {
+    font-family: 'Orbitron';
+    font-size: 55px;
+    color: #ffd93d;
+    text-shadow: 0 0 30px rgba(255, 217, 61, .4);
+}
+
+.year-display span:last-child {
+    display: block;
+    font-size: 12px;
+    color: #65798a;
+    letter-spacing: 4px;
+}
+
+#yearSlider {
+    width: 100%;
+    height: 6px;
+    appearance: none;
+    background: linear-gradient(90deg, #66c0f4, #c084fc);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#yearSlider::-webkit-slider-thumb {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #ffd93d;
+    border: 3px solid #fff;
+    box-shadow: 0 0 20px rgba(255, 217, 61, .7);
+}
+
+.year-scale {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    color: #55758a;
+    font-size: 12px;
+}
+
+/* ============================
+   通用卡片增强
+============================ */
+
+.profile-card {
+    animation: fadeIn .5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ============================
+   时代档案
+============================ */
+
+.era-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.era-stat {
+    text-align: center;
+    padding: 25px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, .03);
+    border: 1px solid rgba(255, 255, 255, .05);
+}
+
+.era-stat div {
+    color: #71879a;
+    font-size: 13px;
+}
+
+.era-stat strong {
+    display: block;
+    margin-top: 12px;
+    font-family: 'JetBrains Mono';
+    font-size: 35px;
+    color: #66c0f4;
+}
+
+.era-description {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgba(102, 192, 244, .05);
+    border: 1px solid rgba(102, 192, 244, .12);
+    color: #c5d8ee;
+    line-height: 1.8;
+}
+
+/* ============================
+   ECharts容器
+============================ */
+
+#growthChart {
+    width: 100%;
+    height: 380px;
+}
+
+#genreChart {
+    width: 100%;
+    height: 420px;
+}
+
+/* ============================
+   标签星云
+============================ */
+
+.tag-nebula {
+    min-height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 14px;
+}
+
+.evolution-tag {
+    padding: 8px 18px;
+    border-radius: 30px;
+    background: rgba(102, 192, 244, .08);
+    border: 1px solid rgba(102, 192, 244, .18);
+    color: #9edcff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.evolution-tag:hover {
+    transform: translateY(-5px);
+    background: rgba(102, 192, 244, .18);
+    box-shadow: 0 0 20px rgba(102, 192, 244, .3);
+}
+
+.evolution-tag.large {
+    font-size: 20px;
+    color: #ffd93d;
+}
+
+.evolution-tag.medium {
+    font-size: 15px;
+}
+
+.evolution-tag.small {
+    font-size: 12px;
+}
+
+/* ============================
+   游戏星球
+============================ */
+
+.game-stars {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.game-star {
+    padding: 18px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, .03);
+    border: 1px solid rgba(255, 255, 255, .06);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.game-star:hover {
+    transform: translateY(-5px);
+    border-color: rgba(102, 192, 244, .5);
+}
+
+.game-star-name {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.game-star-score {
+    margin-top: 10px;
+    font-family: 'JetBrains Mono';
+    color: #ffd93d;
+}
+
+.game-star-genre {
+    margin-top: 8px;
+    color: #7a95aa;
+    font-size: 12px;
+}
+
+/* ============================
+   footer
+============================ */
+
+.footer {
+    margin-top: 35px;
+}
+
+/* ============================
+   响应式
+============================ */
+
+@media(max-width: 900px) {
+    .era-content {
+        grid-template-columns: 1fr;
+    }
+    .evolution-header h1 {
+        font-size: 30px;
+    }
+    .year-display span:first-child {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Duel · 游戏星球碰撞实验室</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js">
+    </script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/compare.css" />
+</head>
+<body>
+
+    <div id="space-bg"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <a href="index_galaxy.html" class="logo">
+            <span class="logo-icon">✦</span>
+            <span class="logo-text">Game Galaxy</span>
+            <span class="logo-sub">EXPLORER</span>
+        </a>
+        <div class="nav-right">
+            <span class="status-dot"></span>
+            <span id="statusText" style="font-size:12px;color:#4a6a7a;">加载中...</span>
+            <a href="index_galaxy.html" class="nav-link">银河</a>
+            <a href="profile.html" class="nav-link">档案</a>
+            <a href="graph.html" class="nav-link">图谱</a>
+            <a href="recommend.html" class="nav-link">推荐</a>
+           <a href="dashboard.html" class="nav-link">驾驶舱</a>
+            <a href="compare.html" class="nav-link active">对比</a>
+            <a href="evolution.html" class="nav-link">演变</a>
+        </div>
+    </nav>
+
+    <div class="main-content">
+
+        <!-- 页面头部 -->
+        <div class="page-header">
+            <div>
+                <h1>⚔️ Game Duel</h1>
+                <div class="sub">AI 驱动的双游戏深度画像分析 · 游戏星球碰撞实验室</div>
+            </div>
+            <div class="header-status">
+                <span class="status-badge">● DUEL MODE ACTIVE</span>
+            </div>
+        </div>
+
+        <!-- 游戏选择器 -->
+        <div class="selector-section">
+            <div class="selector-group">
+                <label for="gameA-select">🌌 选择第一颗星球</label>
+                <select id="gameA-select"></select>
+            </div>
+
+            <div class="selector-vs">
+                <span class="vs-text">⚡</span>
+                <span class="vs-line"></span>
+            </div>
+
+            <div class="selector-group">
+                <label for="gameB-select">🌠 选择第二颗星球</label>
+                <select id="gameB-select"></select>
+            </div>
+
+            <button class="btn-duel" id="compareBtn">🚀 碰撞分析</button>
+        </div>
+
+        <!-- 结果容器 -->
+        <div id="resultContainer" style="display: none;">
+
+            <!-- 双星身份卡 -->
+            <div class="duel-header">
+                <div class="star-card star-card-a" id="cardA">
+                    <div class="star-orb"></div>
+                    <div class="star-content">
+                        <div class="star-badge">✦ 星 A</div>
+                        <div class="star-name" id="starNameA">—</div>
+                        <div class="star-meta" id="starMetaA">—</div>
+                        <div class="star-stats" id="starStatsA"></div>
+                    </div>
+                </div>
+
+                <div class="duel-vs">
+                    <div class="vs-ring">⚡</div>
+                    <div class="vs-label">VS</div>
+                </div>
+
+                <div class="star-card star-card-b" id="cardB">
+                    <div class="star-orb"></div>
+                    <div class="star-content">
+                        <div class="star-badge">✦ 星 B</div>
+                        <div class="star-name" id="starNameB">—</div>
+                        <div class="star-meta" id="starMetaB">—</div>
+                        <div class="star-stats" id="starStatsB"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI 分析总结 -->
+            <div class="insight-banner">
+                <div class="insight-icon">🧠</div>
+                <div class="insight-body">
+                    <div class="insight-label">AI 分析报告</div>
+                    <div class="insight-text" id="insightText">选择两款游戏开始分析</div>
+                </div>
+            </div>
+
+            <!-- DNA 雷达图 -->
+            <div class="chart-card chart-card-glow">
+                <div class="chart-header">
+                    <span class="chart-icon">🧬</span>
+                    <span class="chart-title">游戏 DNA 雷达对比</span>
+                    <span class="chart-sub">六维设计基因</span>
+                </div>
+                <div id="radarChart" class="chart-container chart-radar"></div>
+            </div>
+
+            <!-- ★ 六维能力对比（修复完成） -->
+            <div class="chart-card">
+                <div class="chart-header">
+                    <span class="chart-icon">📊</span>
+                    <span class="chart-title">六维能力对比</span>
+                    <span class="chart-sub">逐项差异分析</span>
+                </div>
+                <div id="diffContainer" class="diff-list"></div>
+            </div>
+
+            <!-- 综合指标 + 标签碰撞 -->
+            <div class="metrics-tag-row">
+                <div class="metrics-card">
+                    <div class="metrics-header">💪 生命力指数</div>
+                    <div class="metrics-dual">
+                        <div class="metrics-item">
+                            <span class="metrics-value-a" id="gviA">--</span>
+                            <span class="metrics-label">星 A</span>
+                        </div>
+                        <div class="metrics-divider">vs</div>
+                        <div class="metrics-item">
+                            <span class="metrics-value-b" id="gviB">--</span>
+                            <span class="metrics-label">星 B</span>
+                        </div>
+                    </div>
+                    <div class="metrics-bar">
+                        <div class="metrics-bar-fill-a" id="gviBarA" style="width:50%;"></div>
+                        <div class="metrics-bar-fill-b" id="gviBarB" style="width:50%;"></div>
+                    </div>
+                    <div class="metrics-sub">GVI 指数对比</div>
+
+                    <div class="metrics-divider-line"></div>
+
+                    <div class="metrics-header" style="margin-top:12px;">🔗 综合相似度</div>
+                    <div class="metrics-similarity">
+                        <span class="sim-number" id="simValue">--%</span>
+                        <div class="sim-bar">
+                            <div class="sim-bar-fill" id="simBarFill" style="width:0%;"></div>
+                        </div>
+                        <span class="sim-source" id="simLabel">计算中...</span>
+                    </div>
+                </div>
+
+                <div class="tags-card">
+                    <div class="tags-header">🧬 标签碰撞</div>
+                    <div class="tags-grid">
+                        <div class="tags-col">
+                            <div class="tags-col-label" style="color:#66c0f4;">星 A</div>
+                            <div id="uniqueA" class="tag-cloud"></div>
+                        </div>
+                        <div class="tags-col tags-col-center">
+                            <div class="tags-col-label" style="color:#ffd93d;">✦ 共同</div>
+                            <div id="commonTags" class="tag-cloud"></div>
+                            <div class="tags-overlap" id="tagOverlapLabel">0% 重叠</div>
+                        </div>
+                        <div class="tags-col">
+                            <div class="tags-col-label" style="color:#a66cff;">星 B</div>
+                            <div id="uniqueB" class="tag-cloud"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 你可能还喜欢 -->
+            <div class="chart-card">
+                <div class="chart-header">
+                    <span class="chart-icon">🎯</span>
+                    <span class="chart-title">你可能还喜欢</span>
+                    <span class="chart-sub">基于游戏画像的智能推荐</span>
+                </div>
+                <div id="recommendSection" class="recommend-grid"></div>
+            </div>
+
+        </div>
+
+        <!-- 空状态 -->
+        <div class="empty-state" id="emptyState">
+            <div class="empty-icon">⚔️</div>
+            <div class="empty-title">选择两颗星球开始碰撞分析</div>
+            <div class="empty-desc">系统将深度对比两款游戏的 DNA、生命力与标签生态</div>
+        </div>
+
+        <div class="footer">Steam Game Galaxy · Game Duel · AI 双星碰撞分析</div>
+    </div>
+
+    <script src="js/compare.js"></script>
+</body>
+</html>

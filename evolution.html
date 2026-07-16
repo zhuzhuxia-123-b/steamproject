@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Evolution · 银河演化</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js">
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/evolution.css">
+
+</head>
+
+<body>
+
+    <div id="space-bg"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- ======================
+    导航
+    ====================== -->
+
+    <nav class="navbar">
+        <a href="index_galaxy.html" class="logo">
+            <span class="logo-icon">✦</span>
+            <span class="logo-text">Game Galaxy</span>
+            <span class="logo-sub">EXPLORER</span>
+        </a>
+
+        <div class="nav-right">
+            <span class="status-dot"></span>
+            <span id="statusText">Evolution Data Loading...</span>
+
+            <a href="index_galaxy.html" class="nav-link">银河</a>
+            <a href="profile.html" class="nav-link">档案</a>
+            <a href="graph.html" class="nav-link">图谱</a>
+            <a href="recommend.html" class="nav-link">推荐</a>
+            <a href="dashboard.html" class="nav-link">驾驶舱</a>
+            <a href="compare.html" class="nav-link">对比</a>
+            <a href="evolution.html" class="nav-link active">演变</a>
+        </div>
+    </nav>
+
+    <div class="main-content">
+
+        <!-- 面包屑 -->
+
+        <div class="breadcrumb">
+            <a href="index_galaxy.html">✦ 银河</a>
+            <span class="sep">›</span>
+            <span>Steam Evolution</span>
+        </div>
+
+        <!-- ======================
+        标题
+        ====================== -->
+
+        <section class="evolution-header">
+            <h1>🌌 STEAM EVOLUTION</h1>
+            <p>从像素时代到开放世界，探索游戏文明十五年的演化轨迹</p>
+            <div class="subtitle">Timeline · Civilization · Ecosystem</div>
+        </section>
+
+        <!-- ======================
+        年份控制
+        ====================== -->
+
+        <section class="profile-card timeline-panel">
+            <div class="card-title">
+                <span class="icon">⏳</span> 时代探索
+            </div>
+
+            <div class="year-display">
+                <span id="currentYear">2015</span>
+                <span>ERA</span>
+            </div>
+
+            <input type="range" id="yearSlider" min="0" max="10" value="5" step="1">
+
+            <div class="year-scale" id="yearScale"></div>
+        </section>
+
+        <!-- ======================
+        时代故事卡
+        ====================== -->
+
+        <section class="profile-card era-card">
+            <div class="card-title">
+                <span class="icon">📖</span> 时代档案
+            </div>
+
+            <div class="era-content">
+                <div class="era-stat">
+                    <div>游戏数量</div>
+                    <strong id="gameCount">-</strong>
+                </div>
+                <div class="era-stat">
+                    <div>平均评分</div>
+                    <strong id="avgScore">-</strong>
+                </div>
+                <div class="era-stat">
+                    <div>平均生命力</div>
+                    <strong id="avgVitality">-</strong>
+                </div>
+            </div>
+
+            <div class="era-description" id="eraDescription">正在探索 Steam 时代...</div>
+        </section>
+
+        <!-- ======================
+        增长曲线
+        ====================== -->
+
+        <section class="profile-card">
+            <div class="card-title">
+                <span class="icon">📈</span> Steam 游戏宇宙增长
+            </div>
+            <div id="growthChart"></div>
+        </section>
+
+        <!-- ======================
+        类型演化
+        ====================== -->
+
+        <section class="profile-card">
+            <div class="card-title">
+                <span class="icon">🪐</span> 游戏文明迁移
+            </div>
+            <div id="genreChart"></div>
+        </section>
+
+        <!-- ======================
+        标签星云
+        ====================== -->
+
+        <section class="profile-card">
+            <div class="card-title">
+                <span class="icon">✨</span> 时代关键词
+            </div>
+            <div class="tag-nebula" id="tagNebula"></div>
+        </section>
+
+        <!-- ======================
+        代表游戏
+        ====================== -->
+
+        <section class="profile-card">
+            <div class="card-title">
+                <span class="icon">⭐</span> 时代代表星球
+            </div>
+            <div class="game-stars" id="topGames"></div>
+        </section>
+
+        <div class="footer">Steam Game Galaxy · Evolution Explorer</div>
+
+    </div>
+
+    <script src="js/evolution.js"></script>
+
+</body>
+
+</html>
